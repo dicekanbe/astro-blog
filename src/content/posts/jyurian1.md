@@ -1,0 +1,72 @@
+---
+title: 寺田本家が飲める愛媛県松山の居酒屋　寿浬庵
+date: 2018-07-31T20:51:30+09:00
+status: publish
+permalink: /entry/jyurian1
+author: user
+excerpt: ""
+type: post
+categories:
+  - お店
+  - 愛媛
+  - 食物
+tag: []
+post_format: []
+---
+
+「いいお店を教えて」とのお題が目に入ったので、最近行ってよかったお店を紹介したいと思う。ローカルな店だが、こちらの寿浬庵というお店である。  
+<https://tabelog.com/ehime/A3801/A380101/38001902/>
+
+- [寺田本家が飲める](#%E5%AF%BA%E7%94%B0%E6%9C%AC%E5%AE%B6%E3%81%8C%E9%A3%B2%E3%82%81%E3%82%8B)
+- [美味しい](#%E7%BE%8E%E5%91%B3%E3%81%97%E3%81%84)
+- [リーズナブル](#%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%8A%E3%83%96%E3%83%AB)
+- [おわりに](#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB)
+
+### 寺田本家が飲める
+
+１週間ぐらい前だが行って来た。
+
+あまり飲み会には行かないし、多くの居酒屋を知っているわけではないので、正確なところはわからないが、 愛媛県松山市の居酒屋で、「寺田本家」の日本酒が置いてある居酒屋はほぼないのではないだろうか。
+
+少なくとも私は他を知らないし、少しググってみたが見つからなかった。
+
+寺田本家についてはここでは多くを言及しないが、私はこの日本酒が好きなのだ。  
+少し癖があるが、私にとってはとても飲みやすいし次の日に残らないのでとても気に入ってる。
+
+とは言っても私は普段はお酒をあまり飲まないし日本酒を飲むことはかなり稀である。  
+唯一積極的にオーダーする日本酒は寺田本家のみで、それが松山で飲めるのがこの居酒屋ということになる。
+
+これがこの居酒屋の良いところというか、私が利用したいと思う一番の動機である。
+
+### 美味しい
+
+また、このお店、料理がとても美味しい。特に魚介類が美味しい。しかも結構ボリュームもある。あまり良い写真がなかったのだが、貼り付けておく。
+
+[![刺身１](https://farm2.staticflickr.com/1797/43703648372_7c9bc2010e.jpg%E2%80%9D%E5%88%BA%E8%BA%AB%EF%BC%91%E2%80%9D)](https://www.exp-cards.net/)
+
+どの刺身も肉厚で食べ応えがある。写真を撮り忘れたので写真はないが、天ぷらもよかった。私は普段は揚げ物を全く食べないので、かなり美味しく感じた。
+
+### リーズナブル
+
+もう一点、この居酒屋の良いところは、価格がリーズナブルであるということである。ちょうどメニューの写真があったので貼り付けて置く。
+
+[![ジュリアンメニュー１](https://farm2.staticflickr.com/1795/43035959814_e2c1a83f1c.jpg%E2%80%9D%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%EF%BC%91%E2%80%9D)](https://www.exp-cards.net/)
+
+[![ジュリアンメニュー2](https://farm2.staticflickr.com/1778/42848874945_c3d0bc351f.jpg%E2%80%9D%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC2%E2%80%9D)](https://www.exp-cards.net/)
+
+### おわりに
+
+食べログの松山・居酒屋ランキングで２位という高ランクで人気も高いようだ。
+
+料理が美味しく、値段もお手頃で、コストパフォーマンスが高いと評判になっている。
+
+ただ、もちろんこれらは重要な要素であるが、個人的には寺田本家が飲めるというのが、この居酒屋の最も注目すべきところだと思う。
+
+料理・値段が良いお店は松山に他にもいくつかあるが、寺田本家が飲めるお店は松山にはないのである。
+
+（メニューには以下の寺田本家のお酒があったような気がする。うろ覚えだが。）
+
+<div class="cstmreba"><div class="kaerebalink-box"><div class="kaerebalink-image">[![](https://images-fe.ssl-images-amazon.com/images/I/41oc3dBIWtL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B005Q8ER00/psypanica02-22/)</div><div class="kaerebalink-info"><div class="kaerebalink-name">[寺田本家 菩提もと仕込み 醍醐のしずく 720ml (要冷蔵)](https://www.amazon.co.jp/exec/obidos/ASIN/B005Q8ER00/psypanica02-22/)<div class="kaerebalink-powered-date">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail"> 寺田本家 </div><div class="kaerebalink-link1"><div class="shoplinkamazon">[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E5%AF%BA%E7%94%B0%E6%9C%AC%E5%AE%B6&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E5%25AF%25BA%25E7%2594%25B0%25E6%259C%25AC%25E5%25AE%25B6%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div></div></div><div class="booklink-footer"></div></div></div><div class="cstmreba"><div class="kaerebalink-box"><div class="kaerebalink-image">[![](https://images-fe.ssl-images-amazon.com/images/I/41Szh3UJBAL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B005Q8EOSA/psypanica02-22/)</div><div class="kaerebalink-info"><div class="kaerebalink-name">[寺田本家 香取 純米80 1800ml](https://www.amazon.co.jp/exec/obidos/ASIN/B005Q8EOSA/psypanica02-22/)<div class="kaerebalink-powered-date">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail"> 寺田本家 </div><div class="kaerebalink-link1"><div class="shoplinkamazon">[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E5%AF%BA%E7%94%B0%E6%9C%AC%E5%AE%B6&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E5%25AF%25BA%25E7%2594%25B0%25E6%259C%25AC%25E5%25AE%25B6%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div></div></div><div class="booklink-footer"></div></div></div><div class="cstmreba"><div class="kaerebalink-box"><div class="kaerebalink-image">[![](https://images-fe.ssl-images-amazon.com/images/I/41p6WLVIfGL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B005Q8IOEA/psypanica02-22/)</div><div class="kaerebalink-info"><div class="kaerebalink-name">[寺田本家 五人娘 純米酒 720ml](https://www.amazon.co.jp/exec/obidos/ASIN/B005Q8IOEA/psypanica02-22/)<div class="kaerebalink-powered-date">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail"> 寺田本家 </div><div class="kaerebalink-link1"><div class="shoplinkamazon">[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E5%AF%BA%E7%94%B0%E6%9C%AC%E5%AE%B6&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E5%25AF%25BA%25E7%2594%25B0%25E6%259C%25AC%25E5%25AE%25B6%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div></div></div><div class="booklink-footer"></div></div></div>[＃ちょうどいいお店](http://blog.hatena.ne.jp/-/campaign/gnavi201807)
+
+[![「メシコレ」公式ブロググループ](https://cdn-ak.f.st-hatena.com/images/fotolife/b/blog-media/20180717/20180717164250.png)](http://htn.to/PiuLeS)  
+Sponsored by [ぐるなび（メシコレ）](http://htn.to/K6gLWk)

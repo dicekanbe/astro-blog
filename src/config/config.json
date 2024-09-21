@@ -1,0 +1,29 @@
+{
+  "site": {
+    "title": "経験値カード",
+    "base_url": "https://exp-cards.net",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "",
+    "logo_width": "200",
+    "logo_height": "34",
+    "logo_text": "経験値カード"
+  },
+
+  "settings": {
+    "pagination": 20,
+    "summary_length": 50
+  },
+
+  "metadata": {
+    "meta_author": "dizu",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "経験値カードは、経験値をカードにまとめて管理するサービスです。"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024 by dizu"
+  }
+}

@@ -1,0 +1,63 @@
+---
+title: "【読書】 いい習慣が脳を変える 健康・仕事・お金・IQ すべて手に入る!"
+date: 2018-05-29T22:27:40+09:00
+status: publish
+permalink: /entry/reading-good-habit-attitude-drt
+author: user
+excerpt: ""
+type: post
+thumbnail: ../../uploads/2018/05/51KNBJqH-jL._SL160_.jpg
+categories:
+  - 読書
+tag: []
+post_format: []
+---
+
+苫米地先生の以下の書籍を読みましたので、アウトプットしたいと思います。  
+自分にとってどのような習慣が良いのかよく分からない方や、ぼんやりしてる方は読んみると新しい気づきがあるかもしれません。
+
+- [習慣とは？](#%E7%BF%92%E6%85%A3%E3%81%A8%E3%81%AF)
+- [ブリーフシステム・アティチュード・ハビット](#%E3%83%96%E3%83%AA%E3%83%BC%E3%83%95%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A2%E3%83%86%E3%82%A3%E3%83%81%E3%83%A5%E3%83%BC%E3%83%89%E3%83%8F%E3%83%93%E3%83%83%E3%83%88)
+- [いい習慣とはゴールに合致した習慣](#%E3%81%84%E3%81%84%E7%BF%92%E6%85%A3%E3%81%A8%E3%81%AF%E3%82%B4%E3%83%BC%E3%83%AB%E3%81%AB%E5%90%88%E8%87%B4%E3%81%97%E3%81%9F%E7%BF%92%E6%85%A3)
+- [ゴール設定](#%E3%82%B4%E3%83%BC%E3%83%AB%E8%A8%AD%E5%AE%9A)
+- [おわりに](#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB)
+
+### 習慣とは？
+
+習慣とはハビットとアティチュードの２種あり、ハビットとは朝に歯を磨くなどの我々が最初に思いつく一般的な習慣のことで、具体的な行動が伴っているものになる。  
+アティチュードとは、潜在的なものの見方でハビットよりは抽象的なものとなる。  
+歯磨きの例でいうと、「口の中を清潔にすることはいい事だ」といったアティチュードを行動に移した結果、歯磨きといったハビットが生まれる。
+
+### ブリーフシステム・アティチュード・ハビット
+
+一般的に、ハビットはアティチュードから成り、アティチュードはブリーフシステムから成る。  
+ブリーフシステムは自我のことで、自分にとって何が重要なのかの基準となる。  
+つまり、習慣を変えて行くにはブリーフシステムを変えることが重要となる。  
+ただ、ハビットからアティチュードが出来上がることもあるようだ。  
+例えば、昔の（？）学校の朝礼では、先生が「前へならへ」と号令した場合、生徒は前へならわなければならないし、  
+先生が前へ進めと号令したら、生徒は前へ進まなければならなかった。  
+このような言われたことを疑問に持つことなく従うハビットを続けることで、先生の言う事を素直に聞くことが良いことだとアティチュードが出来あがる。  
+上記は悪い例だが、逆に意図的に良い（？）ハビットから良いアティチュードを変えブリーフシステムを作り変えることもできそうに感じたが、若干無理やり感があるが。
+
+### いい習慣とはゴールに合致した習慣
+
+それでは、いい習慣（ハビットとアティチュード）とはどのようなものなのか。  
+案外これをパッと回答できる人は少ないのではないだろうか。  
+一般的に良いと言われる習慣は多々あるものの、それが当人にとって良いかどうかはわからないし当人が良いと思っている習慣も実はそれが他者に与えられたものかもしれない。  
+本書では、いい習慣とはゴールに合致した習慣と定義されている。  
+上記のように、習慣（ハビット・アティチュード）はブリーフシステムから影響を受ける。  
+ブリーフシステムとは自我のことであり、自分にとって何が重要なのかの基準なので、ブリーフシステムを変えるにはゴール設定が重要になり、より抽象度の高い社会性を持ったゴール設定をすることで、ゴールを向かうアティチュードやハビットが出来上が理、これらが「いい習慣」となる。
+
+### ゴール設定
+
+上記のように「いい習慣」を得るにはゴール設定が重要だが、なかなかゴールを設定できない人が多いと思う。  
+ただ、とにかくゴールを設定することが重要で最初は適当なゴールで良く、定期的に更新することが重要となる。  
+当然だが自分が本当にやりたい事をゴールとするのだが、それは他人に与えられたゴールの可能性が高く常々それが本当に自分が望んでいるゴールなのか吟味し、違っている場合は更新することが重要となる。  
+また、そのゴールをより抽象的なゴールへ移行することも重要となる。  
+ゴールの更新と同時に、アサンプション（ゴールを達成するために必要なもの）を更新していることも重要となる。
+
+### おわりに
+
+結局のところ、ゴール設定が最重要で、その現在のゴールを基に現在の習慣（アティチュード・ハビット）を吟味し、ゴールに合致してないものならそれをやめ、ゴールに合致した習慣を作りだすことこそが重要と感じた。
+
+<div class="booklink-box" style="text-align: left; padding-bottom: 20px; font-size: small; /zoom: 1; overflow: hidden;"><div class="booklink-image" style="float: left; margin: 0 15px 10px 0;">[![](https://images-fe.ssl-images-amazon.com/images/I/51KNBJqH-jL._SL160_.jpg)](http://www.amazon.co.jp/exec/obidos/asin/4046020946/psypanica02-22/)</div><div class="booklink-info" style="line-height: 120%; /zoom: 1; overflow: hidden;"><div class="booklink-name" style="margin-bottom: 10px; line-height: 120%;">[いい習慣が脳を変える 健康・仕事・お金・IQ すべて手に入る!](http://www.amazon.co.jp/exec/obidos/asin/4046020946/psypanica02-22/)<div class="booklink-powered-date" style="font-size: 8pt; margin-top: 5px; font-family: verdana; line-height: 120%;">posted with [ヨメレバ](https://yomereba.com)</div></div><div class="booklink-detail" style="margin-bottom: 5px;">苫米地 英人 KADOKAWA 2018-03-29</div><div class="booklink-link2" style="margin-top: 10px;"><div class="shoplinkamazon" style="display: inline; margin-right: 5px;">[Amazon](http://www.amazon.co.jp/exec/obidos/asin/4046020946/psypanica02-22/)</div><div class="shoplinkkindle" style="display: inline; margin-right: 5px;">[Kindle](http://www.amazon.co.jp/exec/obidos/ASIN/B07BMNYW59/psypanica02-22/)</div><div class="shoplinkrakuten" style="display: inline; margin-right: 5px;">[楽天ブックス](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/yomereba_201806131555597173?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F15392155%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F)</div></div></div><div class="booklink-footer" style="clear: left;"> </div></div>

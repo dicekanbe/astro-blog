@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import "base";
+}
+
+@layer components {
+  @import "components";
+  @import "navigation";
+  @import "buttons";
+}
+
+@layer utilities {
+  @import "utilities";
+}
+
+.link-preview {
+  --link-preview-corners: 0.5em;
+  --link-preview-padding-inline: 0.75rem;
+  background-color: white;
+  color: darkblue;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-color: black;
+  margin:1rem 0rem;
+  width: 100%; height: 190px; max-width: 500px;
+  padding: 0.5rem;
+}
+.link-preview a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link-preview a:hover {
+  text-decoration: underline;
+}
+
+.link-preview img {
+  display: none;
+}
