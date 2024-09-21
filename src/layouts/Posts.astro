@@ -5,7 +5,6 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
-const authors = await getSinglePage("authors");
 const { summary_length } = config.settings;
 const { className, posts, fluid } = Astro.props;
 
