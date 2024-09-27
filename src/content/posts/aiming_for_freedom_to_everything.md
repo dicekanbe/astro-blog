@@ -3,6 +3,7 @@ title: 【読書】「なにものにもこだわらない」（森博嗣）を�
 date: 2019-10-12T20:00:00+09:00
 status: publish
 permalink: /entry/aiming_for_freedom_to_everything
+image: "https://honyadizu.imgix.net/71EcmA9E3mL._SL1500_.jpg?w=445&h=230&fit=crop&crop=entropy"
 author: user
 excerpt: ""
 type: post

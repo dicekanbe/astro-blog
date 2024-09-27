@@ -3,6 +3,7 @@ title: 【読書】毎日２合のご飯を食べて元気になる
 date: 2019-10-11T20:30:00+09:00
 status: publish
 permalink: /entry/2gou-rice-book1
+image: "https://honyadizu.imgix.net/71fuOWBuLoL._SL1500_.jpg?w=445&h=230&fit=crop&crop=entropy"
 author: user
 excerpt: ""
 type: post

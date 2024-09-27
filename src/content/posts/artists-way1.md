@@ -4,6 +4,7 @@ date: 2018-10-18T21:00:00+09:00
 status: publish
 permalink: /entry/artists-way1
 author: user
+image: "https://honyadizu.imgix.net/61ZKziRegEL._SL1500_.jpg?w=445&h=230&fit=crop&crop=entropy"
 excerpt: ""
 type: post
 thumbnail: ../../uploads/2018/10/51-H53NQ6GL._SL160_.jpg

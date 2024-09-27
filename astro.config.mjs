@@ -8,6 +8,7 @@ import AutoImport from "astro-auto-import";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import embeds from 'astro-embed/integration';
+import partytown from "@astrojs/partytown";
 import config from "./src/config/config.json";
 
 // https://astro.build/config
@@ -17,9 +18,15 @@ export default defineConfig({
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   integrations: [
     tailwind(),
-     react(), 
-     sitemap(),
-     AutoImport({
+    react(),
+    partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
+    sitemap(),
+    AutoImport({
       imports: [
         "@/shortcodes/Button",
         "@/shortcodes/Accordion",
