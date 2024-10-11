@@ -42,7 +42,9 @@ BCAAの詳細に関しては、以下の記事を参照してもらえればと�
 
 BCAAならなんでも良いと言いたい所だが、先ほども記述したように健康のためにはできるだけ、以下のような無添加のものを選ぶのが良いと思う。
 
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;">[![](https://images-fe.ssl-images-amazon.com/images/I/51%2BU%2BCrA6hL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B072M7ZF3Z/psypanica02-22/)</div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%">[ピュアBCAA 味の素 AjiPure®アミノ酸で特別製造 ノンフレーバー ４５４ｇ](https://www.amazon.co.jp/exec/obidos/ASIN/B072M7ZF3Z/psypanica02-22/)<div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> California Gold Nutrition </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px">[Amazon](https://www.amazon.co.jp/gp/search?keywords=California%20Gold%20Nutrition&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkiherb" style="display:inline;margin-right:5px">[iHerb](https://jp.iherb.com/pr/California-Gold-Nutrition-BCAA-AjiPure-Branched-Chain-Amino-Acids-Gluten-Free-Powder-16-oz-454-g/71025?rcode=LHT685)</div></div></div><div class="booklink-footer" style="clear: left"></div></div>### マルチビタミン＆ミネラル
+[![](https://images-fe.ssl-images-amazon.com/images/I/51%2BU%2BCrA6hL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B072M7ZF3Z/psypanica02-22/)
+
+### マルチビタミン＆ミネラル
 
 リーンゲインズ は１食抜くことが一般的だが、１食欠けるとうことは、その分、栄養素が少なくなる。そして、初心者は３大栄養素であるタンパク質、脂質、炭水化物ばかりに目が行きビタミンやミネラルの摂取が疎かになるケースがある。
 
@@ -76,7 +78,9 @@ BCAAならなんでも良いと言いたい所だが、先ほども記述した�
 
 色々な種類のフィッシュオイルが販売されており、いくつか試して見たが、それほど大きな違いは感じられなかった。基本的にはどれでも良い気がする。
 
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;">[![](https://images-fe.ssl-images-amazon.com/images/G/09/nav2/dp/no-image-no-ciu._SL90_.gif)](https://www.amazon.co.jp/exec/obidos/ASIN/B0095D2X3K/psypanica02-22/)</div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%">[\[海外直送品\] ナウフーズ オメガ3 1000mg 200ソフトカプセル ](https://www.amazon.co.jp/exec/obidos/ASIN/B0095D2X3K/psypanica02-22/)<div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> NOW Foods </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px">[Amazon](https://www.amazon.co.jp/gp/search?keywords=Now%20Foods&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten" style="display:inline;margin-right:5px">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FNow%2520Foods%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div><div class="shoplinkiherb" style="display:inline;margin-right:5px">[iHerb](https://jp.iherb.com/pr/Now-Foods-Omega-3-180-EPA-120-DHA-200-Softgels/323?rcode=LHT685)</div></div></div><div class="booklink-footer" style="clear: left"></div></div>### メラトニン
+[![](https://images-fe.ssl-images-amazon.com/images/G/09/nav2/dp/no-image-no-ciu._SL90_.gif)](https://www.amazon.co.jp/exec/obidos/ASIN/B0095D2X3K/psypanica02-22/)
+
+### メラトニン
 
 当然だが睡眠は重要な要素で、減量の成功に大きく関わってくる。しっかり睡眠を取れている場合は、それによってストレスも解消し、睡眠中に脂肪がしっかり燃焼される。
 
@@ -102,7 +106,9 @@ BCAAならなんでも良いと言いたい所だが、先ほども記述した�
 
 グルタミンもいくつかのメーカーのものを試してみたが差を感じることはできなかった。安いもので良いだろう。私は現在以下のJarrow Fomulasのグルタミンを利用している。
 
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;">[![](https://images-fe.ssl-images-amazon.com/images/I/51kl3S-HzzL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B0013OSIY2/psypanica02-22/)</div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%">[Ｌ-グルタミン・パウダー 1000ｇ 海外直送品](https://www.amazon.co.jp/exec/obidos/ASIN/B0013OSIY2/psypanica02-22/)<div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> Jarrow Formulas（ジャローフォーミュラ） </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px">[Amazon](https://www.amazon.co.jp/gp/search?keywords=%EF%BC%AC-%E3%82%B0%E3%83%AB%E3%82%BF%E3%83%9F%E3%83%B3%E3%83%BB%E3%83%91%E3%82%A6%E3%83%80%E3%83%BC&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten" style="display:inline;margin-right:5px">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25EF%25BC%25AC-%25E3%2582%25B0%25E3%2583%25AB%25E3%2582%25BF%25E3%2583%259F%25E3%2583%25B3%25E3%2583%25BB%25E3%2583%2591%25E3%2582%25A6%25E3%2583%2580%25E3%2583%25BC%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div><div class="shoplinkiherb" style="display:inline;margin-right:5px">[iHerb](https://jp.iherb.com/pr/Optimum-Nutrition-ZMA-180-Capsules/27539?rcode=LHT685)</div></div></div><div class="booklink-footer" style="clear: left"></div></div>### アダプトゲンハーブ
+[![](https://images-fe.ssl-images-amazon.com/images/I/51kl3S-HzzL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B0013OSIY2/psypanica02-22/)
+
+### アダプトゲンハーブ
 
 アダプトゲンハーブとは肉体的精神的ストレスの抵抗力を高める副作用のないハーブのことで、最近注目されつつある。有名なアダプトゲンとしては、アシュワガンダ、冬虫夏草、高麗人参、ロディオラなどがあり、身体精神全体のアップを副作用なしにアップしてくれる夢のようなハーブだ。
 

@@ -122,7 +122,9 @@ post_format: []
 
 糖質をカットしていると２、3日でケトーシスになると言われているが、個人差もあるようで、何によってケトーシスか判断すれば初心者はわからないはずだ。そこで、ケトーシスの確認のため、以下のような試験紙を使う。
 
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;">[![](https://images-fe.ssl-images-amazon.com/images/I/31zJk4mjhOL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B0776RWJTB/psypanica02-22/)</div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%">[(キッズ ハウス)KIDS HOUSE 尿 試験紙](https://www.amazon.co.jp/exec/obidos/ASIN/B0776RWJTB/psypanica02-22/)<div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> (キッズ ハウス)KIDS HOUSE </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px">[Amazon](https://www.amazon.co.jp/gp/search?keywords=KIDS%20HOUSE%20%E5%B0%BF%20%E8%A9%A6%E9%A8%93%E7%B4%99&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten" style="display:inline;margin-right:5px">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FKIDS%2520HOUSE%2520%25E5%25B0%25BF%2520%25E8%25A9%25A6%25E9%25A8%2593%25E7%25B4%2599%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div></div></div><div class="booklink-footer" style="clear: left"></div></div>試験紙はケトーシス状態がわかるものならなんでも良いと思う。
+[![](https://images-fe.ssl-images-amazon.com/images/I/31zJk4mjhOL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B0776RWJTB/psypanica02-22/)
+
+試験紙はケトーシス状態がわかるものならなんでも良いと思う。
 
 ### ケトジェニックダイエットのメリット
 

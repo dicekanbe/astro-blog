@@ -48,4 +48,5 @@ post_format: []
 
 これを克服することで私の英語力はアップすると信じ学習をこれからも進めて行きたいと思う。
 
-<div class="cstmreba"><div class="kaerebalink-box"><div class="kaerebalink-image">[![](https://images-fe.ssl-images-amazon.com/images/I/611J86tcwUL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/4900790052/psypanica02-22/)</div><div class="kaerebalink-info"><div class="kaerebalink-name">[DUO 3.0](https://www.amazon.co.jp/exec/obidos/ASIN/4900790052/psypanica02-22/)<div class="kaerebalink-powered-date">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail">鈴木 陽一 アイシーピー 2000-03-15 </div><div class="kaerebalink-link1"><div class="shoplinkamazon">[Amazon](https://www.amazon.co.jp/gp/search?keywords=DUO&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDUO%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div></div></div><div class="booklink-footer"></div></div></div>
+[![](https://images-fe.ssl-images-amazon.com/images/I/611J86tcwUL._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/4900790052/psypanica02-22/)
+

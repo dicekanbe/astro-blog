@@ -17,7 +17,9 @@ post_format: []
 
 9月の1ヶ月チャレンジは、毎朝モーニングページを書いていた。1日だけ書けない日があったが、それ以外は毎日ページを書くことができた。
 
-<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;">[![](https://images-fe.ssl-images-amazon.com/images/I/51-H53NQ6GL._SL160_.jpg)](http://www.amazon.co.jp/exec/obidos/asin/4763136038/psypanica02-22/)</div><div class="booklink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%">[新版 ずっとやりたかったことを、やりなさい。](http://www.amazon.co.jp/exec/obidos/asin/4763136038/psypanica02-22/)<div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with [ヨメレバ](https://yomereba.com)</div></div><div class="booklink-detail" style="margin-bottom:5px;">ジュリア・キャメロン サンマーク出版 2017-05-08 </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px">[Amazon](http://www.amazon.co.jp/exec/obidos/asin/4763136038/psypanica02-22/)</div><div class="shoplinkkindle" style="display:inline;margin-right:5px">[Kindle](http://www.amazon.co.jp/exec/obidos/ASIN/B00AE6WU8U/psypanica02-22/)</div><div class="shoplinkrakuten" style="display:inline;margin-right:5px">[楽天ブックス](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/yomereba_main_201810031134277568?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F14790140%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F)</div></div></div><div class="booklink-footer" style="clear: left"></div></div>モーニングページ とは上記の書籍にあるワークの１つで、朝に書く日記のようなものだ。
+[![](https://images-fe.ssl-images-amazon.com/images/I/51-H53NQ6GL._SL160_.jpg)](http://www.amazon.co.jp/exec/obidos/asin/4763136038/psypanica02-22/)
+
+モーニングページ とは上記の書籍にあるワークの１つで、朝に書く日記のようなものだ。
 
 ただ日記よりももっと自由で、好きなことを書くことができる。自我から表に浮き上がった思いをただただ文章に書いていくだけの作業になる。
 
