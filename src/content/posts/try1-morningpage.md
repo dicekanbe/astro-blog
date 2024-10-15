@@ -50,7 +50,9 @@ post_format: []
 
 毎日30分も手書きで文章を書いているのだ。筆記用具にも少しこだわってみたくなった。また、よく手書きでメモをとったり文章を書いている人は万年筆をよく使っていると聞いたことがあったので、私も使ってみたくなった。
 
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;">[![](https://images-fe.ssl-images-amazon.com/images/I/31Fu4%2Bs%2BV0L._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B000UTO0XE/psypanica02-22/)</div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%">[LAMY ラミー 万年筆 ペン先EF(極細字) サファリ イエロー L18-EF 両用式 コンバーター別売 正規輸入品](https://www.amazon.co.jp/exec/obidos/ASIN/B000UTO0XE/psypanica02-22/)<div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with [カエレバ](https://kaereba.com)</div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> LAMY 2012-12-10 </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px">[Amazon](https://www.amazon.co.jp/gp/search?keywords=LAMY&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=psypanica02-22)</div><div class="shoplinkrakuten" style="display:inline;margin-right:5px">[楽天市場](https://hb.afl.rakuten.co.jp/hgc/16c2f0d7.b600e952.16c2f0d8.0750ca08/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLAMY%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F)</div></div></div><div class="booklink-footer" style="clear: left"></div></div>上記のLAMYサファリの黄色を購入し使ってみた。とても良かった。書き心地がかなりよく、ペンをノートに置いただけで字が書け、文字を書くのに全く力を入れる必要がない。
+[![](https://images-fe.ssl-images-amazon.com/images/I/31Fu4%2Bs%2BV0L._SL160_.jpg)](https://www.amazon.co.jp/exec/obidos/ASIN/B000UTO0XE/psypanica02-22/)
+
+上記のLAMYサファリの黄色を購入し使ってみた。とても良かった。書き心地がかなりよく、ペンをノートに置いただけで字が書け、文字を書くのに全く力を入れる必要がない。
 
 長い文章を書いていると、私の書き方が悪いのかもしれないが、ボールペンだと疲れてしまう。万年筆だと、、力を入れる必要がないせいか、全く手に負荷がかからず、非常に楽だ。手書きで書くのが楽しさすら感じた。
 
