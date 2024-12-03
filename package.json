@@ -54,7 +54,7 @@
     "stylelint-config-standard-scss": "^13.1.0",
     "tailwind-bootstrap-grid": "^5.1.0"
   },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.6.1"
+  "overrides": {
+   "rollup": "npm:@rollup/wasm-node"
   }
 }
