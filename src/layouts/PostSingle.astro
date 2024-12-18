@@ -23,17 +23,17 @@ const { title, categories, image, date, updated, tags } =
         <ul class="mt-4 flex flex-wrap items-center justify-center text-text">
           <li class="mx-3 flex items-center flex-wrap font-medium">
             <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-            <>{dateFormat(date)}</>
+            <div>{dateFormat(date)}</div>
           </li>
           {updated && (
             <li class="mx-3 flex items-center flex-wrap font-medium">
-              <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-              <>{dateFormat(updated)}</>
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="blogicon" role="img" aria-label="最終更新日"><g><title>最終更新日</title><path d="m12,3.99c2.35,0,4.54,1.04,6.04,2.78h-2.47v1.7h5.81V2.66h-1.7v2.96c-1.88-2.26-4.68-3.63-7.68-3.63C6.48,1.99,1.99,6.48,1.99,12h2C3.99,7.58,7.59,3.99,12,3.99Z"></path><path d="m20.01,12c0,4.42-3.59,8.01-8.01,8.01-2.35,0-4.54-1.04-6.04-2.78h2.47v-1.7H2.61v5.81h1.7v-2.96c1.88,2.26,4.68,3.63,7.68,3.63,5.52,0,10.01-4.49,10.01-10.01h-2Z"></path></g></svg>
+              <div>{dateFormat(updated)}</div>
             </li>
           )}
           <li class="mx-3 flex items-center flex-wrap">
             <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
-            <>
+            <div>
               <ul>
                 {
                   categories.map((category: string, i: number) => (
@@ -49,7 +49,7 @@ const { title, categories, image, date, updated, tags } =
                   ))
                 }
               </ul>
-            </>
+            </div>
           </li>
         </ul>
       </div>
