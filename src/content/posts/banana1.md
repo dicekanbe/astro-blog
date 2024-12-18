@@ -27,7 +27,7 @@ post_format: []
 
 ### 症状
 
-写真を撮ってれば良かったのですが、その時が気が回らず、今、捨てたゴミ箱を見ると既に時間がたったせいか、ただの痛んだバナナになってドロドロになっているので、症状が確認できる状態ではありませんでしたが、症状としては、以下のページにある、赤色の芯のような感じです。
+写真を撮ってれば良かったのですが、その時は気が回らず、先ほど、捨てたゴミ箱を見ると既に時間がたったせいか、ただの痛んだバナナになってドロドロになっているので、症状が確認できる状態ではありませんでしたが、症状としては、以下のページにある、赤色の芯のような感じです。
 
 <iframe class="embed-card embed-webcard" frameborder="0" scrolling="no" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdetail.chiebukuro.yahoo.co.jp%2Fqa%2Fquestion_detail%2Fq11139690071" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="【閲覧注意】バナナの中に赤黒い芯。バナナを食べてたら変な食感がして断面見ると赤い芯が見え、包丁で丁寧に裂くと赤黒い気持ち悪いものが出てきました。何かの虫でし..."></iframe><cite class="hatena-citation">[detail.chiebukuro.yahoo.co.jp](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11139690071)</cite>
 

@@ -9,7 +9,6 @@ type: post
 thumbnail: ../../uploads/2018/05/20180503153403.png
 categories:
   - Mac
-  - アプリ
 tag: []
 post_format: []
 ---
@@ -36,6 +35,9 @@ post_format: []
 これ不具合だと思うので、早く直して欲しいところです。  
 [プレビュー機能](http://d.hatena.ne.jp/keyword/%A5%D7%A5%EC%A5%D3%A5%E5%A1%BC%B5%A1%C7%BD)はなくても良いのですがあった方が便利ですよね。
 
-ちなみに問題が発生した機種は以下です。
+ちなみに問題が発生した機種は以下です。  
+MacBook Pro (13-inch, 2017)  
 
-[MacBook Pro](http://d.hatena.ne.jp/keyword/MacBook%20Pro) (13-inch, 2017)
+
+また、排熱に以下のようなケースを利用するのもありかも？？  
+[MacBook 排熱ケース](https://amzn.to/3VFdVxZ) 
