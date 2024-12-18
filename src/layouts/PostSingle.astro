@@ -11,7 +11,7 @@ const posts = await getSinglePage("posts");
 const { post } = Astro.props;
 const similarPosts = similerItems(post, posts, post.slug);
 const { Content } = await post.render();
-const { title, categories, image, date, tags } =
+const { title, categories, image, date, updated, tags } =
   post.data;
 ---
 
@@ -23,7 +23,7 @@ const { title, categories, image, date, tags } =
         <ul class="mt-4 flex flex-wrap items-center justify-center text-text">
           <li class="mx-3 flex items-center flex-wrap font-medium">
             <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-            <>{dateFormat(date)}</>
+            <>{updated ? dateFormat(updated) : dateFormat(date)}</>
           </li>
           <li class="mx-3 flex items-center flex-wrap">
             <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
