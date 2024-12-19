@@ -46,3 +46,5 @@ post_format: []
 身体機能、滋養強壮、疲労回復の効果は体感できてるので、ストレス減少、筋力向上効果もあるかもしれませんね。体感はしずらいかもしれませんが。。。。
 
 引き続き飲み続けたいと思います。
+
+[Paradise Herbs, アシュワガンダエキス、ベジカプセル60粒 – iHerb.com](https://jp.iherb.com/pr/paradise-herbs-ashwagandha-extract-60-vegetarian-capsules/4619?rcode=LHT685)
