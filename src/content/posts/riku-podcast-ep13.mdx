@@ -1,0 +1,38 @@
+---
+title: ブログ運営の裏側
+date: 2024-12-20T22:00:00+09:00
+status: publish
+author: user
+excerpt: ""
+type: post
+image: ""
+categories:
+  - Podcast
+tag: []
+post_format: []
+
+---
+
+先日のポッドキャスト「We Are On The Way」収録中、ブログの検索機能やデザインをめぐる話題が再び盛り上がった。  
+
+前回、私は検索サービスの名前を正しく言えず「アジャイなんとか」と濁してしまったが、正解は「Algolia Search」だった。
+インデックスをローカルで作ってから送る方法や、サイトURLを渡して向こう側でインデックスしてもらう方法など、幾つかの手法があるようで、Algoliaを使うとフロントエンドからでも快適な検索が期待できるらしい。もっとも、まだ自分のブログには導入していないし、正直なところ急ぐ理由もあまりない。
+
+いま私が直面している課題は、移行がほぼ完了したブログの公開タイミングだ。読者はそれほどいない以上、細かい瑕疵を気にせず「エイヤ」と公開してしまえばいいのではないかと竹内([@rikson_en](https://x.com/rikson_en)）は助言してくれた。  
+
+確かにその通りかもしれない。  
+あれこれ考え過ぎると、結局いつまで経っても公開できないままになる。実は竹内はRustベースの軽量検索エンジン「Tinysearch」をWASMで動かし、日本語検索まで対応させているという。試しに私が検索して上手くいかなかった例もあったが、それは単純に入力の仕方の問題らしい。大規模サイトでなければ、Lunr.jsとの性能差はあまり感じないが、こうした挑戦自体が彼のモチベーションを支えているようで興味深い。  
+
+しかし、本当に悩ましいのは検索機能だけではない。竹内は英語で記事を書き始めた途端、コンテンツそのものよりブログの外観が気になり出したと言う。  
+
+Masonryレイアウトという非均一なカード配置をCSSやライブラリで実現しているものの、画面幅に合わせて柔軟に対応させようとするとバグが生じ、気づけばOSSへのコントリビューションまで視野に入ってくる有様だ。さらに「アバウトミー」ページをどう扱うか、カテゴリーとタグの使い分け、固定ページやナビゲーションの整理など、やろうと思えばいくらでも改善の余地がある。手段が目的化してしまいがちなプログラマの性（さが）も相まって、単純なブログ更新がいつの間にか延々と続く改修作業へと変化してしまう様には苦笑いするしかない。
+
+それでも、こうした試行錯誤は決して無駄ではない。  
+
+検索機能の向上も、デザインの洗練も、日々の中で思いつくネタを形にする過程も、すべてが「自分だけの空間」を磨き築き上げる行為となるのだ。  
+
+読者が多くないならなおのこと外からの干渉やクソリプに疲れるSNSとは違って自分のペースで工夫し続けられる場所があるのは嬉しいこと。ブログの改修がひと段落する頃、きっと私は「まあこんなものだろう」と満足し、竹内は「まだ何かできる」と新たなネタを探すのだろう。二人の試行錯誤は続く。  
+
+移動中の雑談、技術への挑戦、そしてブログ運営の工夫が、これからも私たちの道を彩っていくに違いない。
+
+https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E8%84%B3-%EF%BD%9E%E5%84%AA%E3%82%8C%E3%81%9F%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E8%AA%8D%E7%9F%A5%E7%A7%91%E5%AD%A6%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%82%A2%E3%83%97%E3%83%AD%E3%83%BC%E3%83%81-%E3%83%95%E3%82%A7%E3%83%AA%E3%82%A8%E3%83%B3%E3%83%8C%E3%83%BB%E3%83%98%E3%83%AB%E3%83%9E%E3%83%B3%E3%82%B9-ebook/dp/B0BVDQM5H1?crid=FPBQ42GPJNH0&dib=eyJ2IjoiMSJ9.wjLDWpHBTCAGc1opETJVaqITgD9fq3e03rNh-0HSBL1_z4-fLKhwYL9gMeONIxiqW5tXEvdU91CwhnoMe9f-Eoeipp47NlXEou9QA_pqErFsOKK6yyuFKPJXVwZwIgYTbUAxNCu931ZtZMj3c25WdabE6N0dfNHSF1xF46sAmmSL5dnqFm6q-wUoDT15GK2drM-GDkqYlynvicZaYRYSZUxZXJzc4d6lLCmgAs9IFVFBG6395Z2zS09giVeMWeZt0xQVE5b5yUOpFgCSzl05E0J3BSn7tMBpwkfZXsOqp3Vpf8zMAKKBmBYgKBwwHrqupuYOHKW0tqjXQqP1ZT2o2RXsfoYsoQE-SvEUB51Gkld5vrwIrXgBtRBd40q0tdsdfgCoikMbEoGKIEhN2XT-wyPPEz1lPwBkHhQXBMGPXbDe5BuXC0enC4s1Tuz68FFb.j5j0QoLXREgxMCRD6dozSOdAXEsKY7N1Sy4Ro3s_cd8&dib_tag=se&keywords=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E8%84%B3&qid=1734616378&sprefix=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AEWeb%E6%8A%80%E8%A1%93%E5%A4%A7%E5%85%A8%2Caps%2C178&sr=8-1&linkCode=ll1&tag=psypanica02-22&linkId=245d3aff4f5818552e318fdbff65c20d&language=ja_JP&ref_=as_li_ss_tl
