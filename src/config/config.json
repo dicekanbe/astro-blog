@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "経験値カード",
-    "base_url": "https://exp-cards.net",
+    "base_url": "https://www.exp-cards.net",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -18,7 +18,7 @@
 
   "metadata": {
     "meta_author": "dizu",
-    "meta_image": "/images/x-background-type2a.png",
+    "meta_image": "/images/og-image.png",
     "meta_description": "経験値カードは、経験値をカードにまとめて管理するサービスです。"
   },
 
