@@ -68,3 +68,7 @@ post_format: []
 [デッドリフト](http://d.hatena.ne.jp/keyword/%A5%C7%A5%C3%A5%C9%A5%EA%A5%D5%A5%C8)の次の日にスクワットをするとかなり筋肉痛でキツイです。
 
 [デッドリフト](http://d.hatena.ne.jp/keyword/%A5%C7%A5%C3%A5%C9%A5%EA%A5%D5%A5%C8)・スクワット間はできるだけ日をおくことをお勧めします。
+
+import AdUnitText from '@/components/AdUnitText.astro';
+
+<AdUnitText />
