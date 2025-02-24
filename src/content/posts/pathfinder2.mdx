@@ -1,0 +1,72 @@
+---
+title: PathFinderの使用時にファンがうるさい？QuickLookSatellite が原因かも
+date: 2018-05-03T15:40:18+09:00
+updated: 2025-02-23T15:40:18+09:00
+status: publish
+permalink: /entry/pathfinder1
+author: user
+excerpt: ""
+type: post
+thumbnail: ../../uploads/2018/05/20180503153403.png
+categories:
+  - Mac
+tag: []
+post_format: []
+
+---
+
+Mac 上で Finder の代わりに使える高機能ファイルブラウザ [PathFinder](https://cocoatech.com/) は便利ですが、macOS High Sierra（10.13.3）あたりから、何も重い処理をしていないのにファンが急にうるさく回り始めることがあります。実は、その原因が **QuickLookSatellite** というプロセスにある可能性が高いのです。
+ここでは、その原因と対処法をご紹介します。
+
+## QuickLookSatellite とは？
+
+**QuickLookSatellite** とは、macOS のプレビュー機能（Quick Look）を担うプロセスです。ファイルの中身を Finder 上でチラ見できる Quick Look をサポートするために動作しています。  
+PathFinder は独自のプレビュー機能を搭載しているため、特定の条件で QuickLookSatellite が暴走し、高負荷で CPU リソースを占有することがあります。その結果、Mac のファンがフル回転してうるさくなったり、システム全体の動作が重くなることもあります。
+
+## 対策：PathFinder のプレビュー機能をオフにする
+
+PathFinder を終了すると QuickLookSatellite プロセスも終了し、負荷が収まることから、PathFinder のプレビュー機能と QuickLookSatellite の動作が直接関連していると考えられます。実際、PathFinder のサポートサイト（[該当ディスカッション](http://support.cocoatech.com/discussions/problems/93818-quicklooksatellite-hogging-100-cpu)）でも、プレビュー機能をオフにすることで問題が解消するとの報告があります。
+
+**設定方法の例**
+
+1. PathFinder の「プレビュー」パネルを開きます。  
+2. プレビュー機能を無効化するか、別のビュー（例：リスト表示など）に切り替えます。  
+3. QuickLookSatellite の CPU 使用率が大幅に下がるか確認します。
+
+こうすることで、QuickLookSatellite が呼び出されなくなり、ファンの騒音も収まるはずです。
+
+## それでも解決しない場合は？
+
+万が一、PathFinder のプレビュー機能を無効化しても問題が続く場合、以下の点も試してみましょう。
+
+- **PathFinder の再インストールやアップデート**  
+  最新バージョンで問題が修正されている可能性があります。まずは PathFinder を最新にしましょう。
+
+- **macOS のアップデート**  
+  macOS 自体の不具合や互換性の問題である場合もあります。最新バージョンへのアップデートで改善することがあるため、OS のバージョンもチェックしてください。
+
+- **システム環境設定の確認**  
+  起動時に PathFinder が常駐する設定や、他の拡張機能が QuickLookSatellite の動作を引き起こす場合もあります。不要な拡張機能がないか確認しましょう。
+
+## まとめ
+
+PathFinder の便利なプレビュー機能ですが、macOS High Sierra（10.13.3）頃から QuickLookSatellite プロセスが暴走し、CPU を過度に消費する不具合が報告されています。現在も修正待ちの状態かもしれませんが、暫定対処としてプレビュー機能をオフにすると、ファンの騒音が収まる可能性が高いです。使い勝手とのバランスを考えながら、一時的にプレビューを無効化して負荷を下げることを検討してみてください。
+
+### 動作環境（問題の発生した例）
+- MacBook Pro (13-inch, 2017)
+- macOS High Sierra 10.13.3
+
+PathFinder の開発元にも情報が伝わっているようなので、今後のアップデートで早めに修正されることを期待しています。プレビュー機能はないと地味に不便ですが、騒音や CPU 負荷に悩まされるようであれば、一時的に切り替えて運用してみましょう。
+
+import AdUnit from '@/components/AdUnit.astro';
+
+<AdUnit />
+
+https://amzn.to/3ZN82Qy
+
+
+
+
+
+
+
