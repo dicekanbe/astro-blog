@@ -12,14 +12,14 @@
   "dependencies": {
     "@astro-community/astro-embed-link-preview": "^0.2.1",
     "@astrojs/check": "^0.9.3",
-    "@astrojs/mdx": "^3.1.6",
+    "@astrojs/mdx": "^4.1.0",
     "@astrojs/react": "^3.6.2",
     "@astrojs/rss": "^4.0.7",
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/tailwind": "^5.1.0",
     "@types/react": "^18.3.7",
     "@types/react-dom": "^18.3.0",
-    "astro": "^4.15.6",
+    "astro": "^5.4.1",
     "astro-auto-import": "^0.4.2",
     "astro-embed": "^0.7.2",
     "astro-font": "^0.1.81",
@@ -55,6 +55,6 @@
     "tailwind-bootstrap-grid": "^5.1.0"
   },
   "overrides": {
-   "rollup": "npm:@rollup/wasm-node"
+    "rollup": "npm:@rollup/wasm-node"
   }
 }
