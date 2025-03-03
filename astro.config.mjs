@@ -10,6 +10,8 @@ import remarkCollapse from "remark-collapse";
 import embeds from 'astro-embed/integration';
 import partytown from "@astrojs/partytown";
 import config from "./src/config/config.json";
+import swup from "@swup/astro";
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -39,6 +41,23 @@ export default defineConfig({
     }),
     embeds(),
     mdx(),
+    swup({
+      cache: true,
+      preload: true,
+      accessibility: true,
+      forms: false,
+      morph: false,
+      parallel: false,
+      progress: false,
+      routes: false,
+      smoothScrolling: true,
+      updateBodyClass: false,
+      updateHead: true,
+      reloadScripts: true,
+      debug: false,
+      loadOnIdle: true,
+      globalInstance: false,
+    }),
   ],
   markdown: {
     remarkPlugins: [
