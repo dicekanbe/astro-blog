@@ -6,11 +6,12 @@ import dateFormat from "@/lib/utils/dateFormat";
 import similerItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
+import { render } from "astro:content";
 
 const posts = await getSinglePage("posts");
 const { post } = Astro.props;
-const similarPosts = similerItems(post, posts, post.slug);
-const { Content } = await post.render();
+const similarPosts = similerItems(post, posts, post.id);
+const { Content } = await render(post);
 const { title, categories, image, date, updated, tags } =
   post.data;
 ---

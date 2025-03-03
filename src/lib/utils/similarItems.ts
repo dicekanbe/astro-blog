@@ -9,7 +9,7 @@ const similerItems = (currentItem: any, allItems: any, slug: string) => {
   }
 
   // set tags
-  if (currentItem.data.tags.length > 0) {
+  if (currentItem.data.tags?.length > 0) {
     tags = currentItem.data.tags;
   }
 
