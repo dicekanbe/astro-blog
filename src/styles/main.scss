@@ -1,17 +1,21 @@
-// 基本スタイルを使用
-@use "base";
-// コンポーネントスタイルを使用
-@use "components";
-// ナビゲーションスタイルを使用
-@use "navigation";
-// ボタンスタイルを使用
-@use "buttons";
-// ユーティリティクラスを使用
-@use "utilities";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @import "base";
+}
+
+@layer components {
+  @import "components";
+  @import "navigation";
+  @import "buttons";
+}
+
+@layer utilities {
+  @import "utilities";
+}
+
 
 .link-preview {
   --link-preview-corners: 0.5em;
