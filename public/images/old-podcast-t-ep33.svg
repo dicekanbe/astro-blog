@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 背景 -->
+  <rect width="1280" height="720" fill="#2D3748" />
+  
+  <!-- グラデーション背景エフェクト -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A5568" />
+      <stop offset="100%" stop-color="#1A202C" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bgGradient)" />
+  
+  <!-- デザイン要素: テクノロジー関連のグラフィック -->
+  <g transform="translate(640, 360)" opacity="0.1">
+    <!-- 円形の接続ネットワークをイメージした背景グラフィック -->
+    <circle cx="0" cy="0" r="300" stroke="#63B3ED" stroke-width="2" fill="none" />
+    <circle cx="0" cy="0" r="200" stroke="#63B3ED" stroke-width="2" fill="none" />
+    <circle cx="0" cy="0" r="100" stroke="#63B3ED" stroke-width="2" fill="none" />
+    
+    <!-- 放射状の線 -->
+    <line x1="-300" y1="0" x2="300" y2="0" stroke="#63B3ED" stroke-width="2" />
+    <line x1="0" y1="-300" x2="0" y2="300" stroke="#63B3ED" stroke-width="2" />
+    <line x1="-212" y1="-212" x2="212" y2="212" stroke="#63B3ED" stroke-width="2" />
+    <line x1="212" y1="-212" x2="-212" y2="212" stroke="#63B3ED" stroke-width="2" />
+  </g>
+  
+  <!-- メインビジュアル要素 -->
+  <!-- MacBook -->
+  <g transform="translate(360, 340)">
+    <rect x="-150" y="-100" width="300" height="200" rx="10" fill="#718096" />
+    <rect x="-140" y="-90" width="280" height="170" rx="5" fill="#A0AEC0" />
+    <rect x="-120" y="-70" width="240" height="130" fill="#EDF2F7" />
+    
+    <!-- プロテインがこぼれている様子 -->
+    <path d="M-30,-20 Q0,50 30,-20" stroke="#9F7AEA" stroke-width="8" fill="none" />
+    <path d="M-10,-30 Q20,40 50,-30" stroke="#9F7AEA" stroke-width="6" fill="none" />
+    <circle cx="0" cy="-10" r="15" fill="#9F7AEA" opacity="0.8" />
+    <circle cx="25" cy="-25" r="10" fill="#9F7AEA" opacity="0.6" />
+    <circle cx="-20" cy="-15" r="12" fill="#9F7AEA" opacity="0.7" />
+  </g>
+  
+  <!-- コード/サーバーを表すアイコン -->
+  <g transform="translate(900, 340)">
+    <rect x="-100" y="-80" width="200" height="160" rx="5" fill="#4A5568" />
+    
+    <!-- コード風のテキスト表現 -->
+    <line x1="-80" y1="-60" x2="80" y2="-60" stroke="#48BB78" stroke-width="3" />
+    <line x1="-80" y1="-40" x2="40" y2="-40" stroke="#F6AD55" stroke-width="3" />
+    <line x1="-80" y1="-20" x2="60" y2="-20" stroke="#63B3ED" stroke-width="3" />
+    <line x1="-80" y1="0" x2="70" y2="0" stroke="#F6AD55" stroke-width="3" />
+    <line x1="-80" y1="20" x2="50" y2="20" stroke="#63B3ED" stroke-width="3" />
+    <line x1="-80" y1="40" x2="80" y2="40" stroke="#48BB78" stroke-width="3" />
+    <line x1="-80" y1="60" x2="30" y2="60" stroke="#F6AD55" stroke-width="3" />
+    
+    <!-- MCP接続を表すアイコン -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#4FD1C5" stroke-width="3" />
+    <text x="0" y="5" font-family="Arial" font-size="14" fill="#4FD1C5" text-anchor="middle">MCP</text>
+  </g>
+  
+  <!-- タイトルブロック -->
+  <rect x="140" y="80" width="1000" height="100" rx="10" fill="rgba(0,0,0,0.6)" />
+  <text x="640" y="145" font-family="Arial" font-size="50" font-weight="bold" fill="#FFFFFF" text-anchor="middle">We Are On The Way 第33回</text>
+  
+  <!-- サブタイトル -->
+  <rect x="240" y="190" width="800" height="60" rx="8" fill="rgba(0,0,0,0.4)" />
+  <text x="640" y="230" font-family="Arial" font-size="28" fill="#FFFFFF" text-anchor="middle">MacBookトラブルからMCPサーバー開発まで</text>
+  
+  <!-- 登場人物 -->
+  <g transform="translate(270, 600)">
+    <circle cx="0" cy="0" r="40" fill="#FC8181" />
+    <text x="0" y="8" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">竹内</text>
+  </g>
+  
+  <g transform="translate(1010, 600)">
+    <circle cx="0" cy="0" r="40" fill="#4299E1" />
+    <text x="0" y="8" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">安倍</text>
+  </g>
+  
+  <!-- エピソード番号バッジ -->
+  <circle cx="1180" cy="100" r="60" fill="#F56565" />
+  <text x="1180" y="115" font-family="Arial" font-size="40" font-weight="bold" fill="#FFFFFF" text-anchor="middle">#33</text>
+</svg>
