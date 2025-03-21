@@ -26,7 +26,6 @@ export interface TPost {
     description: string;
     date: any;
     image: string;
-    authors: string[];
     categories: string[];
     tags: string[];
     draft: boolean;
