@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- 背景 -->
+  <rect width="800" height="450" fill="#f0f4f8" />
+  
+  <!-- グラデーション背景 -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a6fa5" />
+      <stop offset="100%" stop-color="#6b8cce" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg-gradient)" />
+  
+  <!-- 道路（ジムへの道中を表現） -->
+  <path d="M0,350 C200,320 600,380 800,330" stroke="#e0e0e0" stroke-width="80" fill="none" />
+  
+  <!-- 車のシルエット -->
+  <g transform="translate(400, 350) scale(1.2)">
+    <path d="M-70,-15 L-50,-40 L40,-40 L60,-15 L70,-5 L70,15 L60,15 L55,30 L35,30 L30,15 L-30,15 L-35,30 L-55,30 L-60,15 L-70,15 Z" fill="#2c3e50" />
+    <circle cx="-40" cy="15" r="12" fill="#95a5a6" />
+    <circle cx="40" cy="15" r="12" fill="#95a5a6" />
+    <rect x="-30" y="-25" width="60" height="25" fill="#ecf0f1" />
+  </g>
+  
+  <!-- 左側の人物（安倍） -->
+  <g transform="translate(280, 190)">
+    <circle cx="0" cy="-60" r="30" fill="#34495e" /> <!-- 頭 -->
+    <path d="M-15,-45 L-20,-5 L20,-5 L15,-45" fill="#34495e" /> <!-- 髪 -->
+    <rect x="-20" y="-30" width="40" height="60" rx="5" fill="#3498db" /> <!-- 体 -->
+    <rect x="-5" y="30" width="10" height="40" fill="#2c3e50" /> <!-- 足 -->
+    <path d="M20,-20 L40,0" stroke="#3498db" stroke-width="8" /> <!-- 右腕 -->
+    <text x="60" y="-20" font-family="Arial, sans-serif" font-size="16" fill="white">英語学習中</text>
+  </g>
+  
+  <!-- 右側の人物（竹内） -->
+  <g transform="translate(500, 210)">
+    <circle cx="0" cy="-60" r="25" fill="#34495e" /> <!-- 頭 -->
+    <rect x="-20" y="-35" width="40" height="60" rx="5" fill="#e74c3c" /> <!-- 体 -->
+    <rect x="-5" y="25" width="10" height="35" fill="#2c3e50" /> <!-- 足 -->
+    <path d="M-20,-25 L-45,-15" stroke="#e74c3c" stroke-width="8" /> <!-- 左腕 -->
+    <text x="-120" y="-30" font-family="Arial, sans-serif" font-size="16" fill="white">テスト自動化</text>
+  </g>
+  
+  <!-- アイコン -->
+  <g transform="translate(650, 100) scale(0.8)">
+    <circle cx="0" cy="0" r="40" fill="#2ecc71" />
+    <path d="M-15,-10 C-15,-20 15,-20 15,-10 L15,10 C15,20 -15,20 -15,10 Z" fill="white" />
+    <rect x="-5" y="-25" width="10" height="50" fill="white" />
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">音声AI</text>
+  </g>
+  
+  <g transform="translate(150, 100) scale(0.8)">
+    <circle cx="0" cy="0" r="40" fill="#f39c12" />
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">A→Z</text>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">イマージョン</text>
+  </g>
+  
+  <!-- タイトル -->
+  <g>
+    <rect x="100" y="10" width="600" height="80" rx="10" fill="rgba(0,0,0,0.7)" />
+    <text x="400" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">We Are On The Way #34</text>
+    <text x="400" y="85" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">テスト自動化・ワンオンワン・音声AI・英語学習</text>
+  </g>
+</svg>
