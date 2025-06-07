@@ -172,4 +172,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with [Astro](https://astro.build/)
 - Icons by [React Icons](https://react-icons.github.io/react-icons/)
 - Styled with [Tailwind CSS](https://tailwindcss.com/)
-- reference [reference] (https://github.com/themefisher/bookworm-light-astro/)
+- reference [reference](https://github.com/themefisher/bookworm-light-astro/)
