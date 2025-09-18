@@ -1,10 +1,6 @@
 {
   "main": [
     {
-      "name": "About",
-      "url": "/entry/aboutme"
-    },
-    {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
@@ -14,6 +10,14 @@
           "url": "/categories"
         }
       ]
+    },
+    {
+      "name": "About",
+      "url": "/entry/aboutme"
+    },
+    {
+      "name": "PrivacyPolicy",
+      "url": "/entry/privacy-policy"
     }
   ],
   "footer": [
