@@ -1,29 +1,107 @@
 ---
-title: "Privacy"
-description: "this is meta description"
+title: "プライバシーポリシー"
+description: "プラバシーポリシー"
 draft: false
 ---
 
-#### Responsibility of Contributors
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+## 個人情報の管理
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+個人情報を取り扱うにあたっては、「個人情報の保護に関する法律」をはじめとする個人情報の保護に関する法令、ガイドラインおよび本プライバシーポリシーを遵守いたします。
 
-#### Gathering of Personal Information
+## 個人情報の取得、利用について
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+当サイトでは、一部のコンテンツについて、名前、メールアドレス等の個人情報をご登録いただく場合がございます。
 
-#### Protection of Personal- Information
+これらの個人情報は、質問に対する回答や必要な情報を電子メールなどでご連絡する場合に利用させていただくものであり、ユーザー本人様の許可なく第三者に個人情報を開示いたしません。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+また、法律の適用を受ける場合や法的強制力のある請求以外には、いかなる個人情報も開示いたしません。
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+## クッキー（Cookie）】
 
-#### Privacy Policy Changes
+当サイトでは、一部のコンテンツについて情報の収集にクッキーを使用しています。
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+クッキーは、ユーザーがサイトを訪れた際に、そのユーザーのコンピュータ内に記録されます。
+
+ただし、記録される情報には、ユーザー名やメールアドレスなど、個人を特定するものは一切含まれません。
+
+また、当サイトではユーザーの方々がどのようなサービスに興味をお持ちなのかを分析したり、
+ウェブ上での効果的な広告の配信のためにこれらを利用させていただく場合があります。
+
+## 当サイトが利用・提携しているサービス
+
+当サイトでは、下記のアクセス解析ツールを利用しています。
+
+・Googleアナリティクス
+
+Googleアナリティクスはトラフィックデータの収集のためにCookieを使用しています。
+
+このトラフィックデータは匿名で収集されており、個人を特定するものではありません。
+
+この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。
+
+## 当サイトの広告について
+
+当サイトではアフィリエイトプログラムや第三者配信広告サービス「Google AdSense」を利用しています。
+
+GoogleAdsenseでは広告配信プロセスにおいてデータを収集するために、Cookieを使用しています。GoogleでCookieを使用することにより、インターネットにおけるご自身のサイトや他のサイトへのアクセス情報に基づいてユーザーに広告を配信することが可能になります。
+
+Cookieを使用しないように設定するには[こちら](https://policies.google.com/technologies/ads?hl=ja)をご参照ください。
+
+当サイトは専門性・信頼性の高い記事を配信しております。
+
+通信サービスの適切な選び方や比較基準を支援し、随時情報の更新につとめます。
+
+## 情報の外部送信について
+
+広告を掲載する際に、当サイトでは広告の効果を測定するため、以下のような利用者のアクセス情報を外部へ送信しています。
+
+## 送信情報
+
+閲覧したサイトのURL
+クリック報酬型、又は成果報酬型広告を表示した日時
+クリック報酬型、又は成果報酬型広告をクリックした日時
+クリック報酬型、又は成果報酬型広告を計測するために必要なクッキー情報
+クリック報酬型、又は成果報酬型広告表示時および広告をクリックした時のIPアドレス
+クリック報酬型、又は成果報酬型広告表示時および広告クリック時に使用されたインターネット端末およびインターネットブラウザーの種類
+
+外部送信先：Google LLC、楽天アフィリエイト
+
+## 利用目的
+
+クリック報酬型広告の効果を測定および不正防止のために利用しております。
+
+当該情報は個人を特定する情報ではありません。
+
+また当該情報が上記の目的以外で利用されることは一切ありません。
+
+当サイトの広告は、バナーリンクおよびテキストリンクでの配信が主であり、閲覧者の閲覧履歴・個人データ等を取得・追跡するものではありません。
+
+## 著作権について
+
+当サイトに掲載されている情報についての著作権は放棄しておりません。
+
+著作権法により認められている引用の範囲である場合を除き「内容、テキスト、画像等」の無断転載・使用を固く禁じます。
+
+## 免責事項
+
+当サイトのすべてのコンテンツ・情報につきまして、可能な限り正確な情報を掲載するよう努めておりますが、必ずしも正確性・信頼性等を保証するものではありません。
+
+最善の注意を払って情報を提供していますが、誤情報が入り込んだり、情報が古くなっていることもございます。
+
+当ブログに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。
+
+本免責事項、および、当サイトに掲載しているコンテンツ・情報は、予告なしに変更・削除されることがあります。
+
+## プライバシーポリシーの変更について
+
+当サイトは、個人情報に関して適用される日本の法令を遵守するとともに、本ポリシーの内容を適宜見直しその改善に努めます。
+
+修正された最新のプライバシーポリシーは常に本ページにて開示されます。
+
+## お問い合わせ
+
+当サイトへの、お問い合わせに関しては、[こちら](https://forms.gle/w4kxx74vY6QiePz97)からどうぞ。
+
+
+制定日：2025年08月01日
