@@ -181,18 +181,46 @@ const { title, meta_title, description, image, noindex, canonical } =
         <script is:inline>
             document.addEventListener('astro:after-swap', () => {
                 // AdSenseの再初期化
-                if (typeof window !== 'undefined' && window.adsbygoogle) {
-                    // 既存の広告ユニットを再実行
-                    const ads = document.querySelectorAll('.adsbygoogle');
-                    ads.forEach((ad) => {
-                        if (!ad.hasAttribute('data-ad-rendered')) {
+                if (typeof window !== 'undefined') {
+                    // 少し遅延してからAdSenseを再初期化
+                    setTimeout(() => {
+                        const ads = document.querySelectorAll('.adsbygoogle');
+                        ads.forEach((ad) => {
+                            // 既にレンダリングされた広告をリセット
+                            if (ad.hasAttribute('data-adsbygoogle-status')) {
+                                ad.removeAttribute('data-adsbygoogle-status');
+                            }
+                            
+                            // 広告ユニットの内容をクリア
+                            if (ad.innerHTML) {
+                                ad.innerHTML = '';
+                            }
+                            
                             try {
                                 (window.adsbygoogle = window.adsbygoogle || []).push({});
                             } catch (e) {
                                 console.log('AdSense error:', e);
                             }
-                        }
-                    });
+                        });
+                    }, 100);
+                }
+            });
+            
+            // ページ読み込み時の初期化
+            document.addEventListener('astro:page-load', () => {
+                if (typeof window !== 'undefined') {
+                    setTimeout(() => {
+                        const ads = document.querySelectorAll('.adsbygoogle');
+                        ads.forEach((ad) => {
+                            if (!ad.hasAttribute('data-adsbygoogle-status')) {
+                                try {
+                                    (window.adsbygoogle = window.adsbygoogle || []).push({});
+                                } catch (e) {
+                                    console.log('AdSense error:', e);
+                                }
+                            }
+                        });
+                    }, 100);
                 }
             });
         </script>
