@@ -177,53 +177,6 @@ const { title, meta_title, description, image, noindex, canonical } =
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5466219728999926"
             crossorigin="anonymous">
         </script>
-        <!-- AdSense View Transitions対応 -->
-        <script is:inline>
-            document.addEventListener('astro:after-swap', () => {
-                // AdSenseの再初期化
-                if (typeof window !== 'undefined') {
-                    // 少し遅延してからAdSenseを再初期化
-                    setTimeout(() => {
-                        const ads = document.querySelectorAll('.adsbygoogle');
-                        ads.forEach((ad) => {
-                            // 既にレンダリングされた広告をリセット
-                            if (ad.hasAttribute('data-adsbygoogle-status')) {
-                                ad.removeAttribute('data-adsbygoogle-status');
-                            }
-                            
-                            // 広告ユニットの内容をクリア
-                            if (ad.innerHTML) {
-                                ad.innerHTML = '';
-                            }
-                            
-                            try {
-                                (window.adsbygoogle = window.adsbygoogle || []).push({});
-                            } catch (e) {
-                                console.log('AdSense error:', e);
-                            }
-                        });
-                    }, 100);
-                }
-            });
-            
-            // ページ読み込み時の初期化
-            document.addEventListener('astro:page-load', () => {
-                if (typeof window !== 'undefined') {
-                    setTimeout(() => {
-                        const ads = document.querySelectorAll('.adsbygoogle');
-                        ads.forEach((ad) => {
-                            if (!ad.hasAttribute('data-adsbygoogle-status')) {
-                                try {
-                                    (window.adsbygoogle = window.adsbygoogle || []).push({});
-                                } catch (e) {
-                                    console.log('AdSense error:', e);
-                                }
-                            }
-                        });
-                    }, 100);
-                }
-            });
-        </script>
         <script
             type="text/partytown"
             async
