@@ -177,6 +177,25 @@ const { title, meta_title, description, image, noindex, canonical } =
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5466219728999926"
             crossorigin="anonymous">
         </script>
+        <!-- AdSense View Transitions対応 -->
+        <script is:inline>
+            document.addEventListener('astro:after-swap', () => {
+                // AdSenseの再初期化
+                if (typeof window !== 'undefined' && window.adsbygoogle) {
+                    // 既存の広告ユニットを再実行
+                    const ads = document.querySelectorAll('.adsbygoogle');
+                    ads.forEach((ad) => {
+                        if (!ad.hasAttribute('data-ad-rendered')) {
+                            try {
+                                (window.adsbygoogle = window.adsbygoogle || []).push({});
+                            } catch (e) {
+                                console.log('AdSense error:', e);
+                            }
+                        }
+                    });
+                }
+            });
+        </script>
         <script
             type="text/partytown"
             async
