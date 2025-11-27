@@ -2,6 +2,7 @@
 import Logo from "@/components/Logo.astro";
 import menu from "@/config/menu.json";
 import { IoSearch } from "react-icons/io5";
+import { IoLogoRss } from "react-icons/io5";
 
 export interface ChildNavigationLink {
   name: string;
@@ -87,6 +88,16 @@ const { main }: { main: NavigationLink[] } = menu;
       }
     </ul>
     <div class="order-1 ml-auto flex md:order-2 md:ml-0">
+      <a
+        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary"
+        href="/rss.xml"
+        title="RSS Feed"
+        aria-label="RSS Feed"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IoLogoRss />
+      </a>
       <a
         class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary md:mr-0"
         href="/search"
