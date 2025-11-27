@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "経験値カード",
-    "base_url": "https://www.exp-cards.net",
+    "base_url": "https://exp-cards.net",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
