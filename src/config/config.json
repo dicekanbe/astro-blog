@@ -13,7 +13,17 @@
 
   "settings": {
     "pagination": 20,
-    "summary_length": 50
+    "summary_length": 50,
+    "category_order": [
+      "健康",
+      "筋トレ",
+      "ダイエット",
+      "ブログ",
+      "ツール",
+      "英語",
+      "読書",
+      "マインドの使い方"
+    ]
   },
 
   "metadata": {
