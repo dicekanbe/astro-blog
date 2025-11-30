@@ -4,19 +4,90 @@ import Base from "@/layouts/Base.astro";
 import Pagination from "@/layouts/components/Pagination.astro";
 import Posts from "@/layouts/Posts.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
+import { getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
+import { humanize, slugify } from "@/lib/utils/textConverter";
 
 const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
-const totalPages = Math.ceil(posts.length / config.settings.pagination);
-const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+
+// カテゴリーごとに記事をグループ化
+const categories = await getTaxonomy("posts", "categories");
+const categoryGroups = new Map();
+
+// 各カテゴリーの記事を集める
+for (const category of categories) {
+  const categoryPosts = sortedPosts.filter((post: any) => 
+    post.data.categories?.some((cat: string) => slugify(cat) === category)
+  );
+  if (categoryPosts.length > 0) {
+    categoryGroups.set(category, categoryPosts);
+  }
+}
+
+// 最新記事（すべてのカテゴリーから）
+const latestPosts = sortedPosts.slice(0, 6);
 ---
 
 <Base>
-  <section class="section">
-    <div class="container">
-      <Posts posts={currentPosts} className="mb-16" />
-      <Pagination currentPage={1} totalPages={totalPages} />
+  <!-- Hero Section -->
+  <section class="py-12 md:py-20 border-b">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center space-y-4">
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight">
+          {config.site.title}
+        </h1>
+        <p class="text-xl text-muted-foreground">
+          {config.metadata.meta_description}
+        </p>
+      </div>
     </div>
   </section>
+
+  <!-- Latest Posts Section -->
+  <section class="py-12 md:py-16 border-b">
+    <div class="container mx-auto px-4">
+      <div class="mb-8">
+        <h2 class="text-3xl font-bold tracking-tight mb-2">新着<span class="text-muted-foreground font-normal ml-2">New</span></h2>
+        <div class="h-1 w-20 bg-primary rounded-full"></div>
+      </div>
+      
+      <Posts posts={latestPosts} className="" />
+      
+      <div class="mt-8 text-center">
+        <a href="/page/1" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-8">
+          すべての記事を見る
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Sections -->
+  {
+    Array.from(categoryGroups.entries()).slice(0, 5).map(([category, categoryPosts]: [string, any]) => (
+      <section class="py-12 md:py-16 border-b">
+        <div class="container mx-auto px-4">
+          <div class="flex items-center justify-between mb-8">
+            <div>
+              <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-2">
+                {humanize(category)}
+              </h2>
+              <div class="h-1 w-16 bg-primary rounded-full"></div>
+            </div>
+            <a 
+              href={`/categories/${category}`}
+              class="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1"
+            >
+              もっと見る
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+          
+          <Posts posts={categoryPosts.slice(0, 3)} className="" />
+        </div>
+      </section>
+    ))
+  }
 </Base>
