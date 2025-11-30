@@ -3,6 +3,8 @@ import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import Pagination from "@/layouts/components/Pagination.astro";
 import Posts from "@/layouts/Posts.astro";
+import HorizontalPosts from "@/layouts/HorizontalPosts.astro";
+import { HorizontalScroll } from "@/components/HorizontalScroll";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
@@ -26,7 +28,7 @@ for (const category of categories) {
 }
 
 // 最新記事（すべてのカテゴリーから）
-const latestPosts = sortedPosts.slice(0, 6);
+const latestPosts = sortedPosts.slice(0, 20);
 ---
 
 <Base>
@@ -47,18 +49,22 @@ const latestPosts = sortedPosts.slice(0, 6);
   <!-- Latest Posts Section -->
   <section class="py-12 md:py-16 border-b">
     <div class="container mx-auto px-4 md:px-6 lg:px-8 max-w-[2000px]">
-      <div class="mb-8">
-        <h2 class="text-3xl font-bold tracking-tight mb-2">新着<span class="text-muted-foreground font-normal ml-2">New</span></h2>
-        <div class="h-1 w-20 bg-primary rounded-full"></div>
-      </div>
-      
-      <Posts posts={latestPosts} className="" />
-      
-      <div class="mt-8 text-center">
-        <a href="/page/1" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-8">
-          すべての記事を見る
+      <div class="mb-8 flex items-center justify-between">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight mb-2">新着<span class="text-muted-foreground font-normal ml-2">New</span></h2>
+          <div class="h-1 w-20 bg-primary rounded-full"></div>
+        </div>
+        <a href="/page/1" class="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1">
+          すべて見る
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
         </a>
       </div>
+      
+      <HorizontalScroll client:load>
+        <HorizontalPosts posts={latestPosts} />
+      </HorizontalScroll>
     </div>
   </section>
 

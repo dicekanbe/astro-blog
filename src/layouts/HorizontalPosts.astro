@@ -1,0 +1,59 @@
+---
+import { Image } from "astro:assets";
+import config from "@/config/config.json";
+import { Card as ShadcnCard, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import dateFormat from "@/lib/utils/dateFormat";
+import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
+import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
+
+const { summary_length } = config.settings;
+const { posts } = Astro.props;
+const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
+---
+
+{
+  posts.map((post: any, i: number) => (
+    <article class="group flex-shrink-0 w-[280px] md:w-[320px]">
+      <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:load>
+        <a href={`/entry/${post.id}`} class="block">
+          <div class="relative overflow-hidden aspect-video">
+            <Image
+              class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+              src={(post.data.image) ? post.data.image : `${defaultImage}?txt=${post.data.title}&txt-size=80&txt-pad=36&txt-shad=5&txt-fit=max&txt-align=center,middle&blur=30&txt-color=fff&w=445&h=230&fm=webp&q=85`}
+              alt={post.data.title}
+              width="445"
+              height="230"
+              loading="lazy"
+            />
+          </div>
+          
+          <CardHeader className="space-y-3">
+            <div class="flex flex-wrap gap-2">
+              {post.data.categories && post.data.categories.slice(0, 2).map((category: string) => (
+                <Badge variant="secondary" className="text-xs font-medium">
+                  {humanize(category)}
+                </Badge>
+              ))}
+            </div>
+            
+            <CardTitle className="text-lg md:text-xl line-clamp-2 group-hover:text-primary transition-colors">
+              {post.data.title}
+            </CardTitle>
+            
+            <CardDescription className="flex items-center text-xs text-muted-foreground">
+              <BiCalendarEdit className="mr-1 h-3.5 w-3.5" />
+              {dateFormat(post.data.date)}
+            </CardDescription>
+          </CardHeader>
+          
+          <CardContent>
+            <p class="text-sm text-muted-foreground line-clamp-2">
+              {plainify(post.body?.slice(0, Number(summary_length)))}
+            </p>
+          </CardContent>
+        </a>
+      </ShadcnCard>
+    </article>
+  ))
+}
