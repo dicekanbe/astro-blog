@@ -9,6 +9,7 @@ export function HorizontalScroll({ children }: HorizontalScrollProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   const checkScroll = () => {
     const container = scrollContainerRef.current;
@@ -21,6 +22,7 @@ export function HorizontalScroll({ children }: HorizontalScrollProps) {
   };
 
   useEffect(() => {
+    setMounted(true);
     checkScroll();
     window.addEventListener('resize', checkScroll);
     return () => window.removeEventListener('resize', checkScroll);
@@ -39,7 +41,7 @@ export function HorizontalScroll({ children }: HorizontalScrollProps) {
 
   return (
     <div className="relative group">
-      {showLeftButton && (
+      {mounted && showLeftButton && (
         <button
           onClick={() => scroll('left')}
           className="absolute left-0 top-1/2 -translate-y-1/2 z-10 h-12 w-12 rounded-full bg-background/90 backdrop-blur-sm border border-border shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-accent"
@@ -58,7 +60,7 @@ export function HorizontalScroll({ children }: HorizontalScrollProps) {
         {children}
       </div>
 
-      {showRightButton && (
+      {mounted && showRightButton && (
         <button
           onClick={() => scroll('right')}
           className="absolute right-0 top-1/2 -translate-y-1/2 z-10 h-12 w-12 rounded-full bg-background/90 backdrop-blur-sm border border-border shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-accent"
