@@ -2,6 +2,8 @@ import React from "react";
 import config from "@/config/config.json";
 import dateFormat from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
+import { Input } from "@/components/ui/input";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Fuse from "fuse.js";
 import { useEffect, useRef, useState } from "react";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
@@ -68,8 +70,8 @@ export default function SearchBar({ searchList }: Props) {
 
   return (
     <div className="min-h-[45vh]">
-      <input
-        className="form-input w-full text-center"
+      <Input
+        className="text-center"
         placeholder="Type here to Search posts"
         type="text"
         name="search"
@@ -93,57 +95,64 @@ export default function SearchBar({ searchList }: Props) {
       <div className="row">
         {searchResults?.map(({ item }) => (
           <div key={item.slug} className={"col-12 mb-8 sm:col-6"}>
-            {item.data.image && (
-              <a
-                href={`/entry/${item.slug}`}
-                className="rounded-lg block hover:text-primary overflow-hidden group"
-              >
-                <img
-                  className="group-hover:scale-[1.03] transition duration-300 w-full"
-                  src={item.data.image}
-                  alt={item.data.title}
-                  width={445}
-                  height={230}
-                />
-              </a>
-            )}
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              {item.data.image && (
+                <a
+                  href={`/entry/${item.slug}`}
+                  className="block overflow-hidden group"
+                >
+                  <img
+                    className="group-hover:scale-[1.03] transition duration-300 w-full"
+                    src={item.data.image}
+                    alt={item.data.title}
+                    width={445}
+                    height={230}
+                  />
+                </a>
+              )}
 
-            <ul className="mt-6 mb-4 flex flex-wrap items-center text-text">
-              <li className="mr-5 flex items-center flex-wrap font-medium">
-                <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-                <>{dateFormat(item.data.date)}</>
-              </li>
-              <li className="mr-5 flex items-center flex-wrap">
-                <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
-                <>
-                  <ul>
-                    {item.data.categories.map((category: string, i: number) => (
-                      <li key={i} className="inline-block">
-                        <a
-                          href={`/categories/${slugify(category)}`}
-                          className="mr-2 hover:text-primary font-medium"
-                        >
-                          {humanize(category)}
-                          {i !== item.data.categories.length - 1 && ","}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              </li>
-            </ul>
+              <CardHeader>
+                <ul className="mb-2 flex flex-wrap items-center text-muted-foreground text-sm">
+                  <li className="mr-5 flex items-center flex-wrap font-medium">
+                    <BiCalendarEdit className="mr-1 h-5 w-5" />
+                    <>{dateFormat(item.data.date)}</>
+                  </li>
+                  <li className="mr-5 flex items-center flex-wrap">
+                    <BiCategoryAlt className="mr-1 h-[18px] w-[18px]" />
+                    <>
+                      <ul>
+                        {item.data.categories.map((category: string, i: number) => (
+                          <li key={i} className="inline-block">
+                            <a
+                              href={`/categories/${slugify(category)}`}
+                              className="mr-2 hover:text-primary font-medium transition-colors"
+                            >
+                              {humanize(category)}
+                              {i !== item.data.categories.length - 1 && ","}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  </li>
+                </ul>
 
-            <h3 className="mb-2">
-              <a
-                href={`/entry/${item.slug}`}
-                className="block hover:text-primary transition duration-300"
-              >
-                {item.data.title}
-              </a>
-            </h3>
-            <p className="text-text">
-              {item.content?.slice(0, Number(summary_length))}...
-            </p>
+                <CardTitle>
+                  <a
+                    href={`/entry/${item.slug}`}
+                    className="hover:text-primary transition-colors duration-300"
+                  >
+                    {item.data.title}
+                  </a>
+                </CardTitle>
+              </CardHeader>
+
+              <CardContent>
+                <CardDescription className="text-base">
+                  {item.content?.slice(0, Number(summary_length))}...
+                </CardDescription>
+              </CardContent>
+            </Card>
           </div>
         ))}
       </div>

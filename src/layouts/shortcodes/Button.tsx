@@ -1,4 +1,5 @@
 import React from "react";
+import { Button as ShadcnButton } from "@/components/ui/button";
 
 const Button = ({
   label,
@@ -12,18 +13,21 @@ const Button = ({
   rel?: string;
 }) => {
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel={`noopener noreferrer ${
-        rel ? (rel === "follow" ? "" : rel) : "nofollow"
-      }`}
-      className={`btn mb-4 me-4 hover:text-white no-underline ${
-        style === "outline" ? "btn-outline-primary" : "btn-primary"
-      }`}
+    <ShadcnButton
+      asChild
+      variant={style === "outline" ? "outline" : "default"}
+      className="mb-4 me-4"
     >
-      {label}
-    </a>
+      <a
+        href={link}
+        target="_blank"
+        rel={`noopener noreferrer ${
+          rel ? (rel === "follow" ? "" : rel) : "nofollow"
+        }`}
+      >
+        {label}
+      </a>
+    </ShadcnButton>
   );
 };
 
