@@ -11,10 +11,10 @@ export async function getStaticPaths() {
   const totalPages = Math.ceil(posts.length / config.settings.pagination);
   const paths = [];
 
-  for (let i = 1; i < totalPages; i++) {
+  for (let i = 1; i <= totalPages; i++) {
     paths.push({
       params: {
-        slug: (i + 1).toString(),
+        slug: i.toString(),
       },
     });
   }
@@ -32,8 +32,8 @@ const currentPosts = sortedPosts.slice(indexOfFirstPost, indexOfLastPost);
 ---
 
 <Base>
-  <section class="section">
-    <div class="container">
+  <section class="py-12 md:py-16">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8 max-w-[2000px]">
       <Posts className="mb-16" posts={currentPosts} />
       <Pagination totalPages={totalPages} currentPage={currentPage} />
     </div>

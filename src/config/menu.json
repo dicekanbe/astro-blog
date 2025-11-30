@@ -12,6 +12,10 @@
       ]
     },
     {
+      "name": "Blog",
+      "url": "/page/1"
+    },
+    {
       "name": "About",
       "url": "/entry/aboutme"
     },
