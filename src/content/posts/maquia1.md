@@ -1,16 +1,21 @@
 ---
 title: 「さよならの朝に約束の花をかざろう」をみた
-date: 2018-11-07T20:00:00+09:00
+date: '2018-11-07T20:00:00+09:00'
 status: publish
 permalink: /entry/maquia1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/11/51pRNnWYcDL._SL160_.jpg
 categories:
   - アニメ
   - 映画
-tag: []
+tags:
+  - アニメ
+  - 映画
+  - エンターテイメント
+  - 趣味
+  - 感動
 post_format: []
 ---
 

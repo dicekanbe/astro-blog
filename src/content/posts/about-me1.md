@@ -1,15 +1,20 @@
 ---
 title: ひとりの時間の過ごし方
-date: 2018-07-27T22:56:53+09:00
+date: '2018-07-27T22:56:53+09:00'
 status: publish
 permalink: /entry/about-me1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - 自己紹介的な
   - 雑記
-tag: []
+tags:
+  - 自己紹介的な
+  - 雑記
+  - 自己紹介
+  - プロフィール
+  - 読書
 post_format: []
 ---
 

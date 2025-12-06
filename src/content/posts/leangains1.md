@@ -1,17 +1,22 @@
 ---
-title: "空腹がきつくてダイエットが続かない方へ（リーンゲインズ ）"
-date: 2018-06-23T08:22:29+09:00
+title: 空腹がきつくてダイエットが続かない方へ（リーンゲインズ ）
+date: '2018-06-23T08:22:29+09:00'
 status: publish
 permalink: /entry/leangains1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/06/6920409278_406060ef4e_b.jpg
 categories:
   - フィットネス
   - 健康
   - 筋トレ
-tag: []
+tags:
+  - フィットネス
+  - 健康
+  - 筋トレ
+  - トレーニング
+  - 運動
 post_format: []
 ---
 

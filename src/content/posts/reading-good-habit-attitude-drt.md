@@ -1,15 +1,20 @@
 ---
-title: "【読書】 いい習慣が脳を変える 健康・仕事・お金・IQ すべて手に入る!"
-date: 2018-05-29T22:27:40+09:00
+title: 【読書】 いい習慣が脳を変える 健康・仕事・お金・IQ すべて手に入る!
+date: '2018-05-29T22:27:40+09:00'
 status: publish
 permalink: /entry/reading-good-habit-attitude-drt
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/05/51KNBJqH-jL._SL160_.jpg
 categories:
   - 読書
-tag: []
+tags:
+  - 読書
+  - 学習
+  - 習慣
+  - 生活
+  - ライフスタイル
 post_format: []
 ---
 

@@ -1,14 +1,19 @@
 ---
 title: MacbookPro(2017)がスリープから復帰しなくなったのでSMCをリセットしてみた
-date: 2017-08-23T23:51:27+09:00
+date: '2017-08-23T23:51:27+09:00'
 status: publish
 permalink: /entry/how-to-rest-smc-macbookpro2017
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - Mac
-tag: []
+tags:
+  - Mac
+  - 技術
+  - プログラミング
+  - 開発
+  - ツール
 post_format: []
 ---
 

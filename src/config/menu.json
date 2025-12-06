@@ -12,18 +12,23 @@
       ]
     },
     {
+      "name": "Blog",
+      "url": "/page/1"
+    },
+    {
+      "name": "About",
+      "url": "/entry/aboutme"
+    }
+
+  ],
+  "footer": [
+    {
       "name": "About",
       "url": "/entry/aboutme"
     },
     {
       "name": "PrivacyPolicy",
       "url": "/entry/privacy-policy"
-    }
-  ],
-  "footer": [
-    {
-      "name": "About",
-      "url": "/entry/aboutme"
     }
   ]
 }

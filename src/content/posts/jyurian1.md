@@ -1,16 +1,21 @@
 ---
 title: 寺田本家が飲める愛媛県松山の居酒屋　寿浬庵
-date: 2018-07-31T20:51:30+09:00
+date: '2018-07-31T20:51:30+09:00'
 status: publish
 permalink: /entry/jyurian1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - お店
   - 愛媛
   - 食物
-tag: []
+tags:
+  - お店
+  - 愛媛
+  - 食物
+  - 地域
+  - ふるさと
 post_format: []
 ---
 

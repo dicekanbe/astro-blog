@@ -1,14 +1,19 @@
 ---
-title: "MacBook Pro（2017）でのNVRAM（PRAM)リセット方法"
-date: 2017-08-22T17:57:04+09:00
+title: MacBook Pro（2017）でのNVRAM（PRAM)リセット方法
+date: '2017-08-22T17:57:04+09:00'
 status: publish
 permalink: /entry/how-to-reset-nvram-macbookpro2017
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - Mac
-tag: []
+tags:
+  - Mac
+  - 技術
+  - プログラミング
+  - 開発
+  - ツール
 post_format: []
 ---
 
