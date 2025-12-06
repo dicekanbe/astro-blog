@@ -10,6 +10,7 @@ import { BiCalendarEdit } from "react-icons/bi";
 const { summary_length } = config.settings;
 const rawCategoryImages = config.settings.category_images || {};
 const { post } = Astro.props;
+const defaultGeneratedImageBase = "https://honyadizu.imgix.net/exp-cards-title-bg.jpg";
 
 const categoryImageMap = Object.entries(rawCategoryImages).reduce(
   (acc, [key, value]) => {
@@ -26,9 +27,12 @@ const categoryImageMap = Object.entries(rawCategoryImages).reduce(
   {} as Record<string, string>,
 );
 
-const defaultCategoryImage = categoryImageMap.default || config.metadata?.meta_image || "/images/og-image.png";
+const buildGeneratedImage = (title: string) =>
+  `${defaultGeneratedImageBase}?txt=${encodeURIComponent(title || "post")}&txt-size=80&txt-pad=36&txt-shad=5&txt-fit=max&txt-align=center,middle&blur=30&txt-color=fff&w=445&h=230&fm=webp&q=85`;
 
-const resolveCategoryImage = () => {
+const defaultCategoryImage = categoryImageMap.default || config.metadata?.meta_image;
+
+const categoryImage = (() => {
   const categories = post.data.categories || [];
   for (const category of categories) {
     const slug = slugify(category);
@@ -39,11 +43,12 @@ const resolveCategoryImage = () => {
       return categoryImageMap[category];
     }
   }
-  return defaultCategoryImage;
-};
+  return null;
+})();
 
 const postImage = typeof post.data.image === "string" ? post.data.image.trim() : "";
-const imageSrc = postImage || resolveCategoryImage();
+const fallbackImage = defaultCategoryImage || buildGeneratedImage(post.data.title);
+const imageSrc = postImage || categoryImage || fallbackImage;
 // Local SVG placeholders can't be processed by astro:assets, so fall back to a native <img>.
 const useBasicImg = typeof imageSrc === "string" && (imageSrc.startsWith("/") || imageSrc.endsWith(".svg"));
 ---
@@ -72,7 +77,6 @@ const useBasicImg = typeof imageSrc === "string" && (imageSrc.startsWith("/") ||
           />
         )}
         
-        <!-- Tags overlay -->
         {(post.data.tags || post.data.tag) && (post.data.tags?.length > 0 || post.data.tag?.length > 0) && (
           <div class="absolute bottom-2 left-2 flex flex-wrap gap-1">
             {(post.data.tags || post.data.tag || []).slice(0, 3).map((tag: string) => (
