@@ -1,18 +1,22 @@
 ---
 title: iTunes12.7でipaをインストールできなくなったので別の方法を探してみた（Windows)
-date: 2018-05-24T21:30:55+09:00
+date: '2018-05-24T21:30:55+09:00'
 status: publish
 permalink: /entry/how-to-install-ipa-on-win-2
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/05/20180524170137.png
 categories:
   - Mac
   - Windows
   - ツール
-tag: []
-
+tag:
+  - Mac
+  - Windows
+  - ツール
+  - 技術
+  - プログラミング
 ---
 
 iTunes12.7で[ipa](http://d.hatena.ne.jp/keyword/ipa)をインストールする方法を以下の記事で書きましたが、[Mac](http://d.hatena.ne.jp/keyword/Mac)のみでの方法でした。[Windows](http://d.hatena.ne.jp/keyword/Windows)ユーザーの方には優しくない内容でしたので、今回は[Windows](http://d.hatena.ne.jp/keyword/Windows)で[ipa](http://d.hatena.ne.jp/keyword/ipa)をインストール方法を記載と思います。

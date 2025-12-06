@@ -1,14 +1,19 @@
 ---
 title: 沖縄から台湾へ、大学進学者が急増しているそうだ
-date: 2018-05-31T23:42:36+09:00
+date: '2018-05-31T23:42:36+09:00'
 status: publish
 permalink: /entry/study_abroad_to_taiwan
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - 雑記
-tag: []
+tag:
+  - 雑記
+  - 英語
+  - 学習
+  - スキル
+  - 台湾
 post_format: []
 ---
 

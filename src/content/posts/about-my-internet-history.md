@@ -1,14 +1,19 @@
 ---
 title: テレホーダイの時代
-date: 2018-08-09T20:27:11+09:00
+date: '2018-08-09T20:27:11+09:00'
 status: publish
 permalink: /entry/about-my-internet-history
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - 雑記
-tag: []
+tag:
+  - 雑記
+  - ポイント
+  - ショッピング
+  - 節約
+  - お金
 post_format: []
 ---
 

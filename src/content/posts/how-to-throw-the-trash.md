@@ -1,16 +1,21 @@
 ---
 title: 頭のゴミと部屋のゴミを捨てる
-date: 2018-07-05T19:31:36+09:00
+date: '2018-07-05T19:31:36+09:00'
 status: publish
 permalink: /entry/how-to-throw-the-trash
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/07/51l1HTiTwfL._SL160_.jpg
 categories:
   - 断捨離
   - 雑記
-tag: []
+tag:
+  - 断捨離
+  - 雑記
+  - 瞑想
+  - マインドフルネス
+  - リラクゼーション
 post_format: []
 ---
 

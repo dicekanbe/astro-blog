@@ -1,16 +1,21 @@
 ---
 title: 1日の適切はタンパク質の摂取量は？
-date: 2017-08-19T17:25:20+09:00
+date: '2017-08-19T17:25:20+09:00'
 status: publish
 permalink: /entry/suitable-amount-protein
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - ダイエット
   - フィットネス
   - 健康
-tag: []
+tag:
+  - ダイエット
+  - フィットネス
+  - 健康
+  - 筋トレ
+  - トレーニング
 post_format: []
 ---
 

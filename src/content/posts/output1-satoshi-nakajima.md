@@ -1,15 +1,20 @@
 ---
 title: 【読書】「結局、人生はアウトプットで決まる」を読んだ
-date: 2018-10-21T18:24:47+09:00
+date: '2018-10-21T18:24:47+09:00'
 status: publish
 permalink: /entry/output1-satoshi-nakajima
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/10/512odXXzrnL._SL160_.jpg
 categories:
   - 読書
-tag: []
+tag:
+  - 読書
+  - 学習
+  - 習慣
+  - 技術
+  - プログラミング
 post_format: []
 ---
 

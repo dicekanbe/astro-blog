@@ -1,16 +1,21 @@
 ---
 title: 作文が捗る捗るキーボード　Realforce
-date: 2018-09-04T21:01:58+09:00
+date: '2018-09-04T21:01:58+09:00'
 status: publish
 permalink: /entry/realforce1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/09/41SyUfHJ6bL._SL160_.jpg
 categories:
   - 自己紹介的な
   - 雑記
-tag: []
+tag:
+  - 自己紹介的な
+  - 雑記
+  - 自己紹介
+  - プロフィール
+  - キーボード
 post_format: []
 ---
 

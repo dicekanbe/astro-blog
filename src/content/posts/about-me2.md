@@ -1,16 +1,21 @@
 ---
 title: 生きる気力がない人はネトゲをやってみよう
-date: 2018-07-16T16:04:43+09:00
+date: '2018-07-16T16:04:43+09:00'
 status: publish
 permalink: /entry/about-me2
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/07/51a21XrAtoL._SL160_.jpg
 categories:
   - 自己紹介的な
   - 雑記
-tag: []
+tag:
+  - 自己紹介的な
+  - 雑記
+  - 自己紹介
+  - プロフィール
+  - 食事
 post_format: []
 ---
 

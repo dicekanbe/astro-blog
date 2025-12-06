@@ -1,16 +1,21 @@
 ---
-title: "【読書】「ねじ巻き精霊戦記 天鏡のアルデラミン 14巻」を読んだ"
-date: 2018-08-22T22:04:41+09:00
+title: 【読書】「ねじ巻き精霊戦記 天鏡のアルデラミン 14巻」を読んだ
+date: '2018-08-22T22:04:41+09:00'
 status: publish
 permalink: /entry/alderamin_on_the_sky1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/08/61BoTa-TPxL._SL160_.jpg
 categories:
   - 小説
   - 読書
-tag: []
+tag:
+  - 小説
+  - 読書
+  - 学習
+  - 習慣
+  - アニメ
 post_format: []
 ---
 

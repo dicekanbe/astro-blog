@@ -1,16 +1,21 @@
 ---
-title: "味噌ラーメンを食べたい人へ（田所商店 松山新空港通り店）"
-date: 2018-08-24T23:06:23+09:00
+title: 味噌ラーメンを食べたい人へ（田所商店 松山新空港通り店）
+date: '2018-08-24T23:06:23+09:00'
 status: publish
 permalink: /entry/tadokoro-shouten
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - お店
   - 愛媛
   - 食物
-tag: []
+tag:
+  - お店
+  - 愛媛
+  - 食物
+  - 地域
+  - ふるさと
 post_format: []
 ---
 

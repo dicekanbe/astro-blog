@@ -1,15 +1,20 @@
 ---
 title: 読書の秋ということで　１ヶ月チャレンジ
-date: 2018-11-06T20:00:00+09:00
+date: '2018-11-06T20:00:00+09:00'
 status: publish
 permalink: /entry/try1-reading-10-books
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - １カ月チャレンジ
   - 読書
-tag: []
+tag:
+  - １カ月チャレンジ
+  - 読書
+  - 学習
+  - 習慣
+  - 小説
 post_format: []
 ---
 

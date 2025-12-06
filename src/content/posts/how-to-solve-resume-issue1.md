@@ -1,14 +1,19 @@
 ---
-title: "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)がスリープから復帰しなくなっった"
-date: 2018-05-11T22:19:12+09:00
+title: 'MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)がスリープから復帰しなくなっった'
+date: '2018-05-11T22:19:12+09:00'
 status: publish
 permalink: /entry/how-to-solve-resume-issue1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - Mac
-tag: []
+tag:
+  - Mac
+  - 技術
+  - プログラミング
+  - 開発
+  - ツール
 post_format: []
 ---
 

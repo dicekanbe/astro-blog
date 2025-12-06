@@ -1,15 +1,20 @@
 ---
 title: ハイバースクワットとローバースクワットの違いについて
-date: 2017-09-17T16:14:29+09:00
+date: '2017-09-17T16:14:29+09:00'
 status: publish
 permalink: /entry/high-bar-low-bar
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2017/09/23273953384_b09749638f_b.jpg
 categories:
   - フィットネス
-tag: []
+tag:
+  - フィットネス
+  - スクワット
+  - 筋トレ
+  - トレーニング
+  - 健康
 post_format: []
 ---
 

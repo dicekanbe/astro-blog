@@ -1,16 +1,21 @@
 ---
-title: "心と体の自己治癒能力を高めるために 自律訓練法"
-date: 2018-09-23T00:19:07+09:00
+title: 心と体の自己治癒能力を高めるために 自律訓練法
+date: '2018-09-23T00:19:07+09:00'
 status: publish
 permalink: /entry/autogenic-training1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/09/51NY0z0lHqL._SL160_.jpg
 categories:
   - マインドの使い方
   - 健康
-tag: []
+tag:
+  - マインドの使い方
+  - 健康
+  - 瞑想
+  - マインドフルネス
+  - リラクゼーション
 post_format: []
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: リーンゲインズ実践中に効果的なサプリメント
-date: 2018-09-13T19:55:20+09:00
+date: '2018-09-13T19:55:20+09:00'
 status: publish
 permalink: /entry/supplement-for-leangains
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/09/8266482137_f3eecc3065_z.jpg
 categories:
@@ -12,7 +12,12 @@ categories:
   - 健康
   - 筋トレ
   - 食物
-tag: []
+tag:
+  - ダイエット
+  - 健康
+  - 筋トレ
+  - 食物
+  - フィットネス
 post_format: []
 ---
 

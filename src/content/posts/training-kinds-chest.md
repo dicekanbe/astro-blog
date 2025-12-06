@@ -1,14 +1,19 @@
 ---
 title: 大胸筋のトレーニング種目
-date: 2017-08-20T18:05:11+09:00
+date: '2017-08-20T18:05:11+09:00'
 status: publish
 permalink: /entry/training-kinds-chest
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - フィットネス
-tag: []
+tag:
+  - フィットネス
+  - ベンチプレス
+  - 胸筋
+  - 筋トレ
+  - トレーニング
 post_format: []
 ---
 

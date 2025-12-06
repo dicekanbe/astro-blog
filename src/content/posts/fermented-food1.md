@@ -1,16 +1,21 @@
 ---
 title: 発酵食品を加熱しても良い理由
-date: 2018-07-02T23:17:26+09:00
+date: '2018-07-02T23:17:26+09:00'
 status: publish
 permalink: /entry/fermented-food1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/07/41gbLz4r3ZL._SL160_.jpg
 categories:
   - 健康
   - 食物
-tag: []
+tag:
+  - 健康
+  - 食物
+  - 食事
+  - 栄養
+  - 発酵食品
 post_format: []
 ---
 

@@ -1,15 +1,20 @@
 ---
-title: "Macbook Pro(13-inch 2017)を修理に出しました"
-date: 2018-04-26T22:21:41+09:00
+title: Macbook Pro(13-inch 2017)を修理に出しました
+date: '2018-04-26T22:21:41+09:00'
 status: publish
 permalink: /entry/repairingmacbookpro
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/04/20180426161456.png
 categories:
   - Mac
-tag: []
+tag:
+  - Mac
+  - 技術
+  - プログラミング
+  - 開発
+  - ツール
 post_format: []
 ---
 
