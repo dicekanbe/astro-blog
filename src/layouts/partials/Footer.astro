@@ -6,51 +6,29 @@ import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
 ---
 
-<footer class="border-t bg-muted/40 mt-16">
-  <div class="container mx-auto px-4 py-12 md:py-16">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-      <!-- Category Section -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">Category</h3>
-        <ul class="space-y-2">
-          {
-            menu.footer.slice(0, Math.ceil(menu.footer.length / 2)).map((item) => (
-              <li>
-                <a href={item.url} class="text-muted-foreground hover:text-primary transition-colors">
-                  {item.name}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
+<footer class="border-t bg-background mt-8">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8 max-w-[2000px] py-6">
+    <div class="flex flex-col items-center gap-4">
+      <!-- Menu Links -->
+      <div class="flex flex-wrap justify-center gap-4">
+        {
+          menu.footer.map((item) => (
+            <a href={item.url} class="text-sm text-muted-foreground hover:text-primary transition-colors">
+              {item.name}
+            </a>
+          ))
+        }
       </div>
 
-      <!-- Links Section -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">Link</h3>
-        <Social source={social} className="flex flex-col gap-2 [&>a]:text-muted-foreground [&>a:hover]:text-primary [&>a]:transition-colors" />
-      </div>
-
-      <!-- Legal Section -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">Legal</h3>
-        <ul class="space-y-2">
-          {
-            menu.footer.slice(Math.ceil(menu.footer.length / 2)).map((item) => (
-              <li>
-                <a href={item.url} class="text-muted-foreground hover:text-primary transition-colors">
-                  {item.name}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
+      <!-- Social Links -->
+      <div class="flex items-center justify-center">
+        <Social source={social} className="flex gap-3 [&>a]:text-sm [&>a]:text-muted-foreground [&>a:hover]:text-primary [&>a]:transition-colors" />
       </div>
     </div>
 
     <!-- Copyright -->
-    <div class="border-t pt-8 text-center">
-      <p set:html={markdownify(config.params.copyright)} class="text-sm text-muted-foreground" />
+    <div class="border-t mt-6 pt-4 text-center">
+      <p set:html={markdownify(config.params.copyright)} class="text-xs text-muted-foreground" />
     </div>
   </div>
 </footer>
