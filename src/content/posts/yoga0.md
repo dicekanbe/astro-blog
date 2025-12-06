@@ -1,15 +1,20 @@
 ---
 title: ヨガを始めてから6ヶ月
-date: 2019-09-25T21:00:00+09:00
+date: '2019-09-25T21:00:00+09:00'
 status: publish
 permalink: /entry/yoga0
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - Yoga
   - フィットネス
-tag: []
+tags:
+  - Yoga
+  - フィットネス
+  - 健康
+  - 運動
+  - ジム
 post_format: []
 ---
 

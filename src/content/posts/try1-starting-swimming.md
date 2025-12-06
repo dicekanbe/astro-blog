@@ -1,17 +1,22 @@
 ---
 title: 水泳を始めた　1ヶ月チャレンジ
-date: 2018-12-13T21:00:00+09:00
+date: '2018-12-13T21:00:00+09:00'
 status: publish
 permalink: /entry/try1-starting-swimming
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - １カ月チャレンジ
   - フィットネス
   - 健康
   - 水泳
-tag: []
+tags:
+  - １カ月チャレンジ
+  - フィットネス
+  - 健康
+  - 水泳
+  - 運動
 post_format: []
 ---
 

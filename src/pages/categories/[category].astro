@@ -27,11 +27,13 @@ const title = humanize(category || "");
 ---
 
 <Base title={title || "Category"}>
-  <div class="section">
-    <div class="container">
-      <p class="text-center text-2xl mb-4">Showing Posts From</p>
-      <h1 class="h2 mb-16 text-center text-primary">{title}</h1>
+  <section class="py-12 md:py-16">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8 max-w-[2000px]">
+      <div class="mb-8 text-center">
+        <p class="text-lg mb-2 text-muted-foreground">Showing Posts From</p>
+        <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-primary">{title}</h1>
+      </div>
       <Posts posts={sortedPosts} fluid={false} />
     </div>
-  </div>
+  </section>
 </Base>

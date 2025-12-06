@@ -1,16 +1,21 @@
 ---
 title: iTunes12.7でipaをインストールできなくなったので別の方法を探してみた
-date: 2017-09-14T21:23:17+09:00
+date: '2017-09-14T21:23:17+09:00'
 status: publish
 permalink: /entry/how-to-install-ipa-itunes
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2017/09/20170914211009.png
 categories:
   - Mac
   - ツール
-tag: []
+tags:
+  - Mac
+  - ツール
+  - 技術
+  - プログラミング
+  - 開発
 post_format: []
 ---
 

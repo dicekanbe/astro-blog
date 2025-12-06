@@ -1,15 +1,20 @@
 ---
 title: 水泳の始め方
-date: 2018-12-12T21:00:00+09:00
+date: '2018-12-12T21:00:00+09:00'
 status: publish
 permalink: /entry/how-to-start-swiming
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - 健康
   - 水泳
-tag: []
+tags:
+  - 健康
+  - 水泳
+  - フィットネス
+  - 運動
+  - ジム
 post_format: []
 ---
 

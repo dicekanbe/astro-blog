@@ -1,17 +1,22 @@
 ---
 title: 三日坊主にならないために
-date: 2018-11-22T20:30:00+09:00
+date: '2018-11-22T20:30:00+09:00'
 status: publish
 permalink: /entry/to_keep__improvement1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - フィットネス
   - マインドの使い方
   - 健康
   - 潜在意識
-tag: []
+tags:
+  - フィットネス
+  - マインドの使い方
+  - 健康
+  - 潜在意識
+  - 運動
 post_format: []
 ---
 

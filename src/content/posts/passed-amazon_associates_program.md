@@ -1,15 +1,20 @@
 ---
 title: Amazonアソシエイト合格しました
-date: 2018-06-01T22:20:19+09:00
+date: '2018-06-01T22:20:19+09:00'
 status: publish
 permalink: /entry/passed-amazon_associates_program
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - アソシエイト
   - ブログ
-tag: []
+tags:
+  - アソシエイト
+  - ブログ
+  - 執筆
+  - 情報発信
+  - アドセンス
 post_format: []
 ---
 

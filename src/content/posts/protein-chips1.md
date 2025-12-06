@@ -1,16 +1,21 @@
 ---
 title: ダイエットにオススメ　プロテイン・チップス
-date: 2018-10-17T20:00:00+09:00
+date: '2018-10-17T20:00:00+09:00'
 status: publish
 permalink: /entry/protein-chips1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - ダイエット
   - フィットネス
   - 食物
-tag: []
+tags:
+  - ダイエット
+  - フィットネス
+  - 食物
+  - 健康
+  - 運動
 post_format: []
 ---
 
