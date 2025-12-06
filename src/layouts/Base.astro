@@ -105,6 +105,7 @@ const { title, meta_title, description, image, noindex, canonical } =
 
         <!-- noindex robots -->
         {noindex && <meta name="robots" content="noindex,nofollow" />}
+        {!noindex && <meta name="robots" content="index,follow,max-image-preview:large" />}
 
         <!-- meta-description -->
         <meta

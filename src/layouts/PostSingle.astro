@@ -13,7 +13,7 @@ const posts = await getSinglePage("posts");
 const { post } = Astro.props;
 const similarPosts = similerItems(post, posts, post.id);
 const { Content } = await render(post);
-const { title, categories, image, date, updated, tags } =
+const { title, description, categories, image, date, updated, tags } =
   post.data;
 
 const jsonLd = {
@@ -27,6 +27,13 @@ const jsonLd = {
     "name": config.metadata.meta_author
   },
   "image": image ? new URL(image, config.site.base_url).href : undefined,
+  "description": description || config.metadata.meta_description,
+  "keywords": tags?.join(", "),
+  "articleSection": categories?.[0],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": new URL(`/entry/${post.id}`, config.site.base_url).href
+  },
   "publisher": {
     "@type": "Organization",
     "name": config.site.title,
