@@ -1,0 +1,46 @@
+---
+import { Image } from "astro:assets";
+import config from "@/config/config.json";
+import { Card as ShadcnCard, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import dateFormat from "@/lib/utils/dateFormat";
+import { plainify } from "@/lib/utils/textConverter";
+import { BiCalendarEdit } from "react-icons/bi";
+
+const { summary_length } = config.settings;
+const { post } = Astro.props;
+const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
+---
+
+<article class="group">
+  <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:load>
+    <a href={`/entry/${post.id}`} class="block">
+      <div class="relative overflow-hidden aspect-video">
+        <Image
+          class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+          src={(post.data.image) ? post.data.image : `${defaultImage}?txt=${post.data.title}&txt-size=80&txt-pad=36&txt-shad=5&txt-fit=max&txt-align=center,middle&blur=30&txt-color=fff&w=445&h=230&fm=webp&q=85`}
+          alt={post.data.title}
+          width="445"
+          height="230"
+          loading="lazy"
+        />
+      </div>
+      
+      <CardHeader className="space-y-3">
+        <CardTitle className="text-base md:text-lg line-clamp-2 group-hover:text-primary transition-colors">
+          {post.data.title}
+        </CardTitle>
+        
+        <CardDescription className="flex items-center text-xs text-muted-foreground">
+          <BiCalendarEdit className="mr-1 h-3.5 w-3.5" />
+          {dateFormat(post.data.date)}
+        </CardDescription>
+      </CardHeader>
+      
+      <CardContent>
+        <p class="text-sm text-muted-foreground line-clamp-2">
+          {plainify(post.body?.slice(0, Number(summary_length)))}
+        </p>
+      </CardContent>
+    </a>
+  </ShadcnCard>
+</article>

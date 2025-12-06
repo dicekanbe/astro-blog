@@ -1,68 +1,13 @@
 ---
-import { Image } from "astro:assets";
-import config from "@/config/config.json";
-import { getSinglePage } from "@/lib/contentParser.astro";
-import { Card as ShadcnCard, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import dateFormat from "@/lib/utils/dateFormat";
-import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
-import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
-const { summary_length } = config.settings;
-const { className, posts, fluid } = Astro.props;
+import PostCard from "./components/PostCard.astro";
 
-const defaultImage =  'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
-
+const { className, posts } = Astro.props;
 ---
 
 <div class={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-3 md:gap-4 ${className}`}>
   {
-    posts.map((post: any, i: number) => (
-      <article class="group">
-        <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:load>
-          <a href={`/entry/${post.id}`} class="block">
-            <div class="relative overflow-hidden aspect-video">
-              <Image
-                class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
-                src={ (post.data.image) ? post.data.image : `${defaultImage}?txt=${post.data.title}&txt-size=80&txt-pad=36&txt-shad=5&txt-fit=max&txt-align=center,middle&blur=30&txt-color=fff&w=445&h=230&fm=webp&q=85` }
-                alt={post.data.title}
-                width="445"
-                height="230"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-
-            <CardHeader className="space-y-3">
-              <div class="flex flex-wrap gap-2 items-center text-sm text-muted-foreground">
-                <div class="flex items-center gap-1">
-                  <BiCalendarEdit className="h-4 w-4" />
-                  <time datetime={post.data.date}>{dateFormat(post.data.date)}</time>
-                </div>
-              </div>
-
-              <CardTitle className="text-lg md:text-xl font-bold line-clamp-2 group-hover:text-primary transition-colors leading-tight">
-                {post.data.title}
-              </CardTitle>
-
-              <div class="flex flex-wrap gap-2">
-                {post.data.categories.slice(0, 3).map((category: string) => (
-                  <Badge variant="secondary" className="text-xs font-medium px-2.5 py-1" client:load>
-                    <a href={`/categories/${slugify(category)}`} class="hover:underline">
-                      {humanize(category)}
-                    </a>
-                  </Badge>
-                ))}
-              </div>
-            </CardHeader>
-
-            <CardContent>
-              <CardDescription className="text-base line-clamp-3">
-                {plainify(post.body)?.slice(0, Number(summary_length)*2)}...
-              </CardDescription>
-            </CardContent>
-          </a>
-        </ShadcnCard>
-      </article>
+    posts.map((post: any) => (
+      <PostCard post={post} />
     ))
   }
 </div>
