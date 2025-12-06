@@ -2,8 +2,9 @@
 import { Image } from "astro:assets";
 import config from "@/config/config.json";
 import { Card as ShadcnCard, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import dateFormat from "@/lib/utils/dateFormat";
-import { plainify } from "@/lib/utils/textConverter";
+import { plainify, humanize } from "@/lib/utils/textConverter";
 import { BiCalendarEdit } from "react-icons/bi";
 
 const { summary_length } = config.settings;
@@ -23,6 +24,21 @@ const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
           height="230"
           loading="lazy"
         />
+        
+        <!-- Tags overlay -->
+        {post.data.tags && post.data.tags.length > 0 && (
+          <div class="absolute top-2 left-2 flex flex-wrap gap-1">
+            {post.data.tags.slice(0, 3).map((tag: string) => (
+              <Badge 
+                variant="secondary" 
+                className="text-xs px-2 py-0.5 bg-black/60 text-white border-none backdrop-blur-sm" 
+                client:load
+              >
+                {humanize(tag)}
+              </Badge>
+            ))}
+          </div>
+        )}
       </div>
       
       <CardHeader className="space-y-2 pb-2">
