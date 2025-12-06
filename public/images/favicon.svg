@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <defs>
+        <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#10B981;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="cardGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- カードの背景 -->
+    <rect class="card-bg" x="20" y="24" width="88" height="80" rx="8" />
+    
+    <!-- 経験値バー背景 -->
+    <rect class="exp-bar-bg" x="32" y="82" width="64" height="8" rx="4" />
+    
+    <!-- 経験値バー -->
+    <rect class="exp-bar-fill" x="32" y="82" width="48" height="8" rx="4" />
+    
+    <!-- レベル表示 -->
+    <text class="level-text" x="64" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="32">EXP</text>
+    
+    <!-- 星のアクセント -->
+    <path class="star" d="M64 36 l3.5 7 l7.7 1.1 l-5.6 5.4 l1.3 7.6 l-6.9-3.6 l-6.9 3.6 l1.3-7.6 l-5.6-5.4 l7.7-1.1 z" />
+    
+    <style>
+        .card-bg { 
+            fill: url(#cardGradient);
+            stroke: #064E3B;
+            stroke-width: 2;
+        }
+        .exp-bar-bg { 
+            fill: #022C22;
+            opacity: 0.4;
+        }
+        .exp-bar-fill { 
+            fill: #FCD34D;
+        }
+        .level-text { 
+            fill: #FFFFFF;
+            font-size: 28px;
+        }
+        .star {
+            fill: #FCD34D;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .card-bg { 
+                fill: url(#cardGradientDark);
+                stroke: #A7F3D0;
+            }
+            .exp-bar-bg { 
+                fill: #D1FAE5;
+                opacity: 0.3;
+            }
+            .exp-bar-fill { 
+                fill: #FBBF24;
+            }
+            .level-text { 
+                fill: #FFFFFF;
+            }
+            .star {
+                fill: #FBBF24;
+            }
+        }
+    </style>
+</svg>

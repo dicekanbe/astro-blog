@@ -66,7 +66,7 @@ const { title, meta_title, description, image, noindex, canonical } =
             config={[
                 {
                     src: [],
-                    preload: false,
+                    preload: true,
                     display: "swap",
                     name: fontPrimary!,
                     fallback: "sans-serif",
@@ -75,7 +75,7 @@ const { title, meta_title, description, image, noindex, canonical } =
                 },
                 {
                     src: [],
-                    preload: false,
+                    preload: true,
                     display: "swap",
                     name: fontSecondary!,
                     fallback: "sans-serif",
@@ -105,6 +105,7 @@ const { title, meta_title, description, image, noindex, canonical } =
 
         <!-- noindex robots -->
         {noindex && <meta name="robots" content="noindex,nofollow" />}
+        {!noindex && <meta name="robots" content="index,follow,max-image-preview:large" />}
 
         <!-- meta-description -->
         <meta
@@ -137,7 +138,7 @@ const { title, meta_title, description, image, noindex, canonical } =
         <meta property="og:type" content="website" />
         <meta
             property="og:url"
-            content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
+            content={new URL(Astro.url.pathname, config.site.base_url).href}
         />
 
         <!-- twitter-title -->
@@ -182,7 +183,7 @@ const { title, meta_title, description, image, noindex, canonical } =
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-L76WK986RP"
         ></script>
-        <script type="text/partytown">
+        <script type="text/partytown" is:inline>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);

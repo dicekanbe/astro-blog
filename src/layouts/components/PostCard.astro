@@ -53,15 +53,15 @@ const imageSrc = postImage || categoryImage || fallbackImage;
 const useBasicImg = typeof imageSrc === "string" && (imageSrc.startsWith("/") || imageSrc.endsWith(".svg"));
 ---
 
-<article class="group">
+<article class="group" role="article" aria-labelledby={`post-title-${post.id}`}>
   <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:visible>
-    <a href={`/entry/${post.id}`} class="block">
+    <a href={`/entry/${post.id}`} class="block" aria-label={`記事を読む: ${post.data.title}`}>
       <div class="relative overflow-hidden aspect-video">
         {useBasicImg ? (
           <img
             class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
             src={imageSrc}
-            alt={post.data.title}
+            alt={`${post.data.title}の記事サムネイル画像`}
             width="445"
             height="230"
             loading="lazy"
@@ -70,7 +70,7 @@ const useBasicImg = typeof imageSrc === "string" && (imageSrc.startsWith("/") ||
           <Image
             class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
             src={imageSrc}
-            alt={post.data.title}
+            alt={`${post.data.title}の記事サムネイル画像`}
             width="445"
             height="230"
             loading="lazy"
