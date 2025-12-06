@@ -1,0 +1,13 @@
+---
+import PostCard from "./components/PostCard.astro";
+
+const { posts } = Astro.props;
+---
+
+{
+  posts.map((post: any) => (
+    <div class="flex-shrink-0 w-[280px] md:w-[320px]">
+      <PostCard post={post} />
+    </div>
+  ))
+}

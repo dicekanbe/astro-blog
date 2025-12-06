@@ -1,16 +1,21 @@
 ---
 title: バターコーヒーのダイエット効果について
-date: 2017-09-09T17:28:30+09:00
+date: '2017-09-09T17:28:30+09:00'
 status: publish
 permalink: /entry/effect-buttercofffe
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2017/09/6555908395_91ceb0f9ca_b.jpg
 categories:
   - ダイエット
   - 健康
-tag: []
+tags:
+  - ダイエット
+  - 健康
+  - 食事
+  - 栄養
+  - サプリメント
 post_format: []
 ---
 

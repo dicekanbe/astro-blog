@@ -19,93 +19,126 @@ export interface NavigationLink {
 const { main }: { main: NavigationLink[] } = menu;
 ---
 
-<header class="header pt-6">
-  <nav class="navbar container">
-    <!-- logo -->
-    <div class="order-0">
-      <Logo /> 
-    </div>
-    <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" />
-    <label
-      id="show-button"
-      for="nav-toggle"
-      class="order-2 flex cursor-pointer items-center text-black md:order-1 md:hidden"
-    >
-      <svg class="h-6 fill-current" viewBox="0 0 20 20">
-        <title>Menu Open</title>
-        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
-      </svg>
-    </label>
-    <label
-      id="hide-button"
-      for="nav-toggle"
-      class="order-2 hidden cursor-pointer items-center text-black md:order-1"
-    >
-      <svg class="h-6 fill-current" viewBox="0 0 20 20">
-        <title>Menu Close</title>
-        <polygon
-          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-          transform="rotate(45 10 10)"></polygon>
-      </svg>
-    </label>
-    <!-- /navbar toggler -->
+<header class="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+  <nav class="container mx-auto px-4">
+    <div class="flex h-16 items-center justify-between">
+      <!-- logo -->
+      <div class="flex items-center">
+        <Logo />
+      </div>
 
-    <ul
-      id="nav-menu"
-      class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto"
-    >
-      {
-        main.map((menu) => (
-          <>
-            {menu.hasChildren ? (
-              <li class="nav-item nav-dropdown group relative cursor-pointer">
-                <span class="nav-link inline-flex items-center">
-                  {menu.name}
-                  <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                  </svg>
-                </span>
-                <ul class="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
-                  {menu.children?.map((child) => (
-                    <li class="nav-dropdown-item">
-                      <a href={child.url} class="nav-dropdown-link">
-                        {child.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ) : (
-              <li class="nav-item">
-                <a href={menu.url} class="nav-link block">
-                  {menu.name}
-                </a>
-              </li>
-            )}
-          </>
-        ))
-      }
-    </ul>
-    <div class="order-1 ml-auto flex md:order-2 md:ml-0">
-      <a
-        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary"
-        href="/rss.xml"
-        title="RSS Feed"
-        aria-label="RSS Feed"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <IoLogoRss />
-      </a>
-      <a
-        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary md:mr-0"
-        href="/search"
-        title="seach"
-        aria-label="seach"
-      >
-        <IoSearch />
-      </a>
+      <!-- desktop navigation -->
+      <ul class="hidden md:flex md:items-center md:gap-6">
+        {
+          main.map((menu) => (
+            <>
+              {menu.hasChildren ? (
+                <li class="group relative">
+                  <button class="inline-flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors hover:text-primary">
+                    {menu.name}
+                    <svg class="h-4 w-4 fill-current transition-transform group-hover:rotate-180" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </button>
+                  <ul class="absolute left-0 top-full hidden min-w-[200px] rounded-md border bg-popover p-2 shadow-md group-hover:block">
+                    {menu.children?.map((child) => (
+                      <li>
+                        <a href={child.url} class="block rounded-sm px-3 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground">
+                          {child.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ) : (
+                <li>
+                  <a href={menu.url} class="px-3 py-2 text-sm font-medium transition-colors hover:text-primary">
+                    {menu.name}
+                  </a>
+                </li>
+              )}
+            </>
+          ))
+        }
+      </ul>
+
+      <!-- icons -->
+      <div class="flex items-center gap-2">
+        <a href="/search" class="inline-flex h-9 w-9 items-center justify-center rounded-md transition-colors hover:bg-accent hover:text-accent-foreground">
+          <IoSearch className="h-5 w-5" />
+          <span class="sr-only">Search</span>
+        </a>
+        <a href="/rss.xml" class="inline-flex h-9 w-9 items-center justify-center rounded-md transition-colors hover:bg-accent hover:text-accent-foreground">
+          <IoLogoRss className="h-5 w-5" />
+          <span class="sr-only">RSS Feed</span>
+        </a>
+
+        <!-- mobile menu button -->
+        <button id="mobile-menu-button" class="inline-flex h-9 w-9 items-center justify-center rounded-md md:hidden hover:bg-accent hover:text-accent-foreground">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <span class="sr-only">Toggle menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- mobile navigation -->
+    <div id="mobile-menu" class="hidden border-t pb-4 md:hidden">
+      <ul class="space-y-1 pt-4">
+        {
+          main.map((menu) => (
+            <>
+              {menu.hasChildren ? (
+                <li class="space-y-1">
+                  <button class="mobile-submenu-toggle w-full text-left px-3 py-2 text-sm font-medium flex items-center justify-between hover:bg-accent rounded-md transition-colors">
+                    {menu.name}
+                    <svg class="h-4 w-4 fill-current transition-transform" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </button>
+                  <ul class="mobile-submenu hidden space-y-1 pl-4">
+                    {menu.children?.map((child) => (
+                      <li>
+                        <a href={child.url} class="block px-3 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground rounded-md">
+                          {child.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ) : (
+                <li>
+                  <a href={menu.url} class="block px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground rounded-md">
+                    {menu.name}
+                  </a>
+                </li>
+              )}
+            </>
+          ))
+        }
+      </ul>
     </div>
   </nav>
 </header>
+
+<script>
+  // Mobile menu toggle
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  mobileMenuButton?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+
+  // Mobile submenu toggles
+  const submenuToggles = document.querySelectorAll('.mobile-submenu-toggle');
+  submenuToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const submenu = toggle.nextElementSibling;
+      const icon = toggle.querySelector('svg');
+      submenu?.classList.toggle('hidden');
+      icon?.classList.toggle('rotate-180');
+    });
+  });
+</script>

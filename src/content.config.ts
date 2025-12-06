@@ -10,11 +10,22 @@ const postsCollection = defineCollection({
     title: z.string(),
     meta_title: z.string().optional(),
     description: z.string().optional(),
-    date: z.date().optional(),
-    updated: z.date().optional(), // Pd057
+    date: z.union([z.date(), z.string()]).optional().transform((val) => {
+      if (typeof val === 'string') {
+        return new Date(val);
+      }
+      return val;
+    }),
+    updated: z.union([z.date(), z.string()]).optional().transform((val) => {
+      if (typeof val === 'string') {
+        return new Date(val);
+      }
+      return val;
+    }),
     image: z.string().optional(),
     categories: z.array(z.string()).default(["others"]),
     tags: z.array(z.string()).default(["others"]),
+    tag: z.array(z.string()).optional(),
     draft: z.boolean().optional(),
   }),
 });

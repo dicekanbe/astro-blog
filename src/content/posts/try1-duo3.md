@@ -1,16 +1,21 @@
 ---
 title: DUO3.0で英語学習　1ヶ月チャレンジ
-date: 2018-09-03T23:12:46+09:00
+date: '2018-09-03T23:12:46+09:00'
 status: publish
 permalink: /entry/try1-duo3
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/09/611J86tcwUL._SL160_.jpg
 categories:
   - １カ月チャレンジ
   - 英語
-tag: []
+tags:
+  - １カ月チャレンジ
+  - 英語
+  - 読書
+  - 学習
+  - 習慣
 post_format: []
 ---
 

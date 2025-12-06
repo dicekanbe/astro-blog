@@ -1,14 +1,19 @@
 ---
-title: "Googleアドセンス(Google AdSence)に合格しました。2017年9月"
-date: 2017-09-23T23:59:52+09:00
+title: Googleアドセンス(Google AdSence)に合格しました。2017年9月
+date: '2017-09-23T23:59:52+09:00'
 status: publish
 permalink: /entry/pass-adsence
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - アドセンス
-tag: []
+tags:
+  - アドセンス
+  - フィットネス
+  - 健康
+  - 運動
+  - ブログ
 post_format: []
 ---
 

@@ -1,16 +1,21 @@
 ---
-title: "Bose SoundSport wirelessを修理に出す方法"
-date: 2018-05-07T22:34:01+09:00
+title: Bose SoundSport wirelessを修理に出す方法
+date: '2018-05-07T22:34:01+09:00'
 status: publish
 permalink: /entry/bose-sound-sport-wireless1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 thumbnail: ../../uploads/2018/05/41hzeNCo7oL._SL160_.jpg
 categories:
   - ツール
   - 音響
-tag: []
+tags:
+  - ツール
+  - 音響
+  - ブログ
+  - 執筆
+  - 情報発信
 post_format: []
 ---
 

@@ -1,14 +1,19 @@
 ---
 title: インスタグラムへ毎日投稿してみて　１カ月チャレンジ
-date: 2018-08-01T21:58:51+09:00
+date: '2018-08-01T21:58:51+09:00'
 status: publish
 permalink: /entry/try1
 author: user
-excerpt: ""
+excerpt: ''
 type: post
 categories:
   - １カ月チャレンジ
-tag: []
+tags:
+  - １カ月チャレンジ
+  - 食事
+  - 栄養
+  - 健康
+  - ダイエット
 post_format: []
 ---
 
