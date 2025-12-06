@@ -51,14 +51,26 @@ export function HorizontalScroll({ children }: HorizontalScrollProps) {
         </button>
       )}
       
+      {/* Left fade gradient hint */}
+      {mounted && showLeftButton && (
+        <div className="absolute left-0 top-0 h-full w-8 bg-gradient-to-r from-background to-transparent pointer-events-none z-[5]" aria-hidden="true" />
+      )}
+      
       <div
         ref={scrollContainerRef}
         onScroll={checkScroll}
         className="flex gap-3 md:gap-4 overflow-x-auto scrollbar-hide scroll-smooth"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+        role="region"
+        aria-label="横スクロール可能なコンテンツ"
       >
         {children}
       </div>
+
+      {/* Right fade gradient hint */}
+      {mounted && showRightButton && (
+        <div className="absolute right-0 top-0 h-full w-8 bg-gradient-to-l from-background to-transparent pointer-events-none z-[5]" aria-hidden="true" />
+      )}
 
       {mounted && showRightButton && (
         <button
