@@ -7,6 +7,7 @@ import similerItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
 import { render } from "astro:content";
+import config from "@/config/config.json";
 
 const posts = await getSinglePage("posts");
 const { post } = Astro.props;
@@ -14,7 +15,30 @@ const similarPosts = similerItems(post, posts, post.id);
 const { Content } = await render(post);
 const { title, categories, image, date, updated, tags } =
   post.data;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "datePublished": date,
+  "dateModified": updated || date,
+  "author": {
+    "@type": "Person",
+    "name": config.metadata.meta_author
+  },
+  "image": image ? new URL(image, config.site.base_url).href : undefined,
+  "publisher": {
+    "@type": "Organization",
+    "name": config.site.title,
+    "logo": {
+      "@type": "ImageObject",
+      "url": new URL(config.metadata.meta_image, config.site.base_url).href
+    }
+  }
+};
 ---
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
 <section class="section">
   <div class="container">
