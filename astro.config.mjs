@@ -16,6 +16,17 @@ export default defineConfig({
   site: config.site.base_url ? config.site.base_url : "https://exp-cards.net/",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: {
+        limitInputPixels: false,
+      }
+    }
+  },
+  build: {
+    inlineStylesheets: 'auto',
+  },
   integrations: [
     tailwind(),
     react(),
