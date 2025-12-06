@@ -12,20 +12,20 @@ const rawCategoryImages = config.settings.category_images || {};
 const { post } = Astro.props;
 const defaultGeneratedImageBase = "https://honyadizu.imgix.net/exp-cards-title-bg.jpg";
 
-const categoryImageMap = Object.entries(rawCategoryImages).reduce(
-  (acc, [key, value]) => {
-    if (!value) {
-      return acc;
-    }
-    acc[key] = value;
-    const slugKey = slugify(key);
-    if (slugKey && !acc[slugKey]) {
-      acc[slugKey] = value;
-    }
-    return acc;
-  },
-  {} as Record<string, string>,
-);
+// Create a category image map accessible by both original and slugified keys
+const categoryImageMap: Record<string, string> = {};
+for (const [categoryName, imagePath] of Object.entries(rawCategoryImages)) {
+  if (!imagePath) continue;
+  
+  // Make accessible by original category name
+  categoryImageMap[categoryName] = imagePath;
+  
+  // Also make accessible by slugified category name
+  const slugKey = slugify(categoryName);
+  if (slugKey && !categoryImageMap[slugKey]) {
+    categoryImageMap[slugKey] = imagePath;
+  }
+}
 
 const buildGeneratedImage = (title: string) =>
   `${defaultGeneratedImageBase}?txt=${encodeURIComponent(title || "post")}&txt-size=80&txt-pad=36&txt-shad=5&txt-fit=max&txt-align=center,middle&blur=30&txt-color=fff&w=445&h=230&fm=webp&q=85`;
