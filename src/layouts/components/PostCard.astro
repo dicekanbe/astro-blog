@@ -13,7 +13,7 @@ const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
 ---
 
 <article class="group">
-  <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:load>
+  <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:visible>
     <a href={`/entry/${post.id}`} class="block">
       <div class="relative overflow-hidden aspect-video">
         <Image
@@ -32,7 +32,7 @@ const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
               <Badge 
                 variant="secondary" 
                 className="text-xs px-2 py-0.5 bg-black/60 text-white border-none backdrop-blur-sm" 
-                client:load
+                client:visible
               >
                 {humanize(tag)}
               </Badge>
