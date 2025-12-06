@@ -25,7 +25,7 @@ const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
         />
       </div>
       
-      <CardHeader className="space-y-3">
+      <CardHeader className="space-y-2 pb-2">
         <CardTitle className="text-base md:text-lg line-clamp-2 group-hover:text-primary transition-colors">
           {post.data.title}
         </CardTitle>
@@ -36,7 +36,7 @@ const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
         </CardDescription>
       </CardHeader>
       
-      <CardContent>
+      <CardContent className="pt-0">
         <p class="text-sm text-muted-foreground line-clamp-2">
           {plainify(post.body?.slice(0, Number(summary_length)))}
         </p>
