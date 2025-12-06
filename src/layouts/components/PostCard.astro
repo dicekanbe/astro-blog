@@ -26,9 +26,9 @@ const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
         />
         
         <!-- Tags overlay -->
-        {post.data.tags && post.data.tags.length > 0 && (
-          <div class="absolute top-2 left-2 flex flex-wrap gap-1">
-            {post.data.tags.slice(0, 3).map((tag: string) => (
+        {(post.data.tags || post.data.tag) && (post.data.tags?.length > 0 || post.data.tag?.length > 0) && (
+          <div class="absolute bottom-2 left-2 flex flex-wrap gap-1">
+            {(post.data.tags || post.data.tag || []).slice(0, 3).map((tag: string) => (
               <Badge 
                 variant="secondary" 
                 className="text-xs px-2 py-0.5 bg-black/60 text-white border-none backdrop-blur-sm" 
