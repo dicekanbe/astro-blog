@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="230" viewBox="0 0 445 230">
+  <defs>
+    <linearGradient id="healthGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="445" height="230" rx="24" fill="url(#healthGradient)" />
+  <text x="50%" y="50%" fill="#f8fafc" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle" dominant-baseline="central" letter-spacing="3">
+    HEALTH
+  </text>
+</svg>

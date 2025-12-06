@@ -16,14 +16,24 @@
     "summary_length": 50,
     "category_order": [
       "健康",
+      "読書",
       "筋トレ",
       "ダイエット",
-      "ブログ",
-      "ツール",
-      "読書",
       "マインドの使い方",
-      "英語"
-    ]
+      "雑記"
+    ],
+    "category_images": {
+      "健康": "/images/categories/health.svg",
+      "筋トレ": "/images/categories/workout.svg",
+      "ダイエット": "/images/categories/diet.svg",
+      "ブログ": "/images/categories/blog.svg",
+      "ツール": "/images/categories/tools.svg",
+      "読書": "/images/categories/reading.svg",
+      "マインドの使い方": "/images/categories/mind.svg",
+      "英語": "/images/categories/english.svg",
+      "雑記": "/images/categories/journal.svg",
+      "default": "/images/categories/default.svg"
+    }
   },
 
   "metadata": {
@@ -34,6 +44,6 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2024 by dizu"
+    "copyright": "Copyright © 2025 by dizu"
   }
 }
