@@ -13,14 +13,14 @@ import { humanize, slugify } from "@/lib/utils/textConverter";
 const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
 
-// カテゴリーごとに記事をグループ化
+// Group posts by category
 const categories = await getTaxonomy("posts", "categories");
 const categoryGroups = new Map();
 
-// 表示するカテゴリーのリスト（日本語）
+// List of categories to display
 const categoryOrder: string[] = config.settings.category_order || [];
 
-// すべてのカテゴリーで記事を集める
+// Collect posts for all categories
 for (const category of categories) {
   const categoryPosts = sortedPosts.filter((post: any) => 
     post.data.categories?.some((cat: string) => slugify(cat) === category)
@@ -30,12 +30,12 @@ for (const category of categories) {
   }
 }
 
-// categoryOrderの日本語名とslugifyされたカテゴリー名をマッピング
+// Map category order with category names to slugified names
 const sortedCategories = categoryOrder
   .map(cat => slugify(cat))
   .filter(slugifiedCat => categoryGroups.has(slugifiedCat));
 
-// 最新記事（すべてのカテゴリーから）
+// Latest posts (from all categories)
 const latestPosts = sortedPosts.slice(0, 20);
 ---
 
