@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="230" viewBox="0 0 445 230">
+  <defs>
+    <linearGradient id="dietGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+  <rect width="445" height="230" rx="24" fill="url(#dietGradient)" />
+  <text x="50%" y="50%" fill="#fff0f6" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle" dominant-baseline="central" letter-spacing="6">
+    DIET
+  </text>
+</svg>

@@ -4,35 +4,86 @@ import config from "@/config/config.json";
 import { Card as ShadcnCard, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import dateFormat from "@/lib/utils/dateFormat";
-import { plainify, humanize } from "@/lib/utils/textConverter";
+import { plainify, humanize, slugify } from "@/lib/utils/textConverter";
 import { BiCalendarEdit } from "react-icons/bi";
 
 const { summary_length } = config.settings;
+const rawCategoryImages = config.settings.category_images || {};
 const { post } = Astro.props;
-const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
+const defaultGeneratedImageBase = "https://honyadizu.imgix.net/exp-cards-title-bg.jpg";
+
+// Create a category image map accessible by both original and slugified keys
+const categoryImageMap: Record<string, string> = {};
+for (const [categoryName, imagePath] of Object.entries(rawCategoryImages)) {
+  if (!imagePath) continue;
+  
+  // Make accessible by original category name
+  categoryImageMap[categoryName] = imagePath;
+  
+  // Also make accessible by slugified category name
+  const slugKey = slugify(categoryName);
+  if (slugKey && !categoryImageMap[slugKey]) {
+    categoryImageMap[slugKey] = imagePath;
+  }
+}
+
+const buildGeneratedImage = (title: string) =>
+  `${defaultGeneratedImageBase}?txt=${encodeURIComponent(title || "post")}&txt-size=80&txt-pad=36&txt-shad=5&txt-fit=max&txt-align=center,middle&blur=30&txt-color=fff&w=445&h=230&fm=webp&q=85`;
+
+const defaultCategoryImage = categoryImageMap.default || config.metadata?.meta_image;
+
+const categoryImage = (() => {
+  const categories = post.data.categories || [];
+  for (const category of categories) {
+    const slug = slugify(category);
+    if (slug && categoryImageMap[slug]) {
+      return categoryImageMap[slug];
+    }
+    if (categoryImageMap[category]) {
+      return categoryImageMap[category];
+    }
+  }
+  return null;
+})();
+
+const postImage = typeof post.data.image === "string" ? post.data.image.trim() : "";
+const fallbackImage = defaultCategoryImage || buildGeneratedImage(post.data.title);
+const imageSrc = postImage || categoryImage || fallbackImage;
+// Local SVG placeholders can't be processed by astro:assets, so fall back to a native <img>.
+const useBasicImg = typeof imageSrc === "string" && (imageSrc.startsWith("/") || imageSrc.endsWith(".svg"));
 ---
 
 <article class="group">
-  <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:load>
+  <ShadcnCard className="h-full transition-all duration-300 hover:shadow-xl hover:border-primary/50 overflow-hidden" client:visible>
     <a href={`/entry/${post.id}`} class="block">
       <div class="relative overflow-hidden aspect-video">
-        <Image
-          class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
-          src={(post.data.image) ? post.data.image : `${defaultImage}?txt=${post.data.title}&txt-size=80&txt-pad=36&txt-shad=5&txt-fit=max&txt-align=center,middle&blur=30&txt-color=fff&w=230&h=230&fm=webp&q=85`}
-          alt={post.data.title}
-          width="445"
-          height="230"
-          loading="lazy"
-        />
+        {useBasicImg ? (
+          <img
+            class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+            src={imageSrc}
+            alt={post.data.title}
+            width="445"
+            height="230"
+            loading="lazy"
+          />
+        ) : (
+          <Image
+            class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+            src={imageSrc}
+            alt={post.data.title}
+            width="445"
+            height="230"
+            loading="lazy"
+          />
+        )}
         
-        <!-- Tags overlay -->
         {(post.data.tags || post.data.tag) && (post.data.tags?.length > 0 || post.data.tag?.length > 0) && (
           <div class="absolute bottom-2 left-2 flex flex-wrap gap-1">
             {(post.data.tags || post.data.tag || []).slice(0, 3).map((tag: string) => (
               <Badge 
                 variant="secondary" 
                 className="text-xs px-2 py-0.5 bg-black/60 text-white border-none backdrop-blur-sm" 
-                client:load
+                client:visible
               >
                 {humanize(tag)}
               </Badge>
@@ -41,7 +92,7 @@ const defaultImage = 'https://honyadizu.imgix.net/exp-cards-title-bg.jpg';
         )}
       </div>
       
-      <CardHeader className="space-y-2 pb-2">
+      <CardHeader className="space-y-2 px-6 pt-4 pb-2">
         <CardTitle className="text-base md:text-lg line-clamp-2 group-hover:text-primary transition-colors">
           {post.data.title}
         </CardTitle>
