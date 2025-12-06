@@ -56,7 +56,7 @@ const latestPosts = sortedPosts.slice(0, 20);
         </a>
       </div>
       
-      <HorizontalScroll client:load>
+      <HorizontalScroll client:visible>
         <HorizontalPosts posts={latestPosts} />
       </HorizontalScroll>
     </div>
@@ -85,7 +85,7 @@ const latestPosts = sortedPosts.slice(0, 20);
             </a>
           </div>
           
-          <HorizontalScroll client:load>
+          <HorizontalScroll client:visible>
             <HorizontalPosts posts={categoryGroups.get(category).slice(0, 20)} />
           </HorizontalScroll>
         </div>
