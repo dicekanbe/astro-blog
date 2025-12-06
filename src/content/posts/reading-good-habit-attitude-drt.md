@@ -9,7 +9,7 @@ type: post
 thumbnail: ../../uploads/2018/05/51KNBJqH-jL._SL160_.jpg
 categories:
   - 読書
-tag:
+tags:
   - 読書
   - 学習
   - 習慣

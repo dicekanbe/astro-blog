@@ -9,7 +9,7 @@ type: post
 thumbnail: ../../uploads/2018/06/20180614120748.png
 categories:
   - ブログ
-tag:
+tags:
   - ブログ
   - 執筆
   - 情報発信

@@ -9,7 +9,7 @@ type: post
 thumbnail: ../../uploads/2018/04/20180426161456.png
 categories:
   - Mac
-tag:
+tags:
   - Mac
   - 技術
   - プログラミング

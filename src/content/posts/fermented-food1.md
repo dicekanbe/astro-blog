@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/07/41gbLz4r3ZL._SL160_.jpg
 categories:
   - 健康
   - 食物
-tag:
+tags:
   - 健康
   - 食物
   - 食事

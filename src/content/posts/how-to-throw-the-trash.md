@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/07/51l1HTiTwfL._SL160_.jpg
 categories:
   - 断捨離
   - 雑記
-tag:
+tags:
   - 断捨離
   - 雑記
   - 瞑想

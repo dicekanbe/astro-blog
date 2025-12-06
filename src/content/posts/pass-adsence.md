@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 categories:
   - アドセンス
-tag:
+tags:
   - アドセンス
   - フィットネス
   - 健康

@@ -9,7 +9,7 @@ type: post
 thumbnail: ../../uploads/2017/09/23273953384_b09749638f_b.jpg
 categories:
   - フィットネス
-tag:
+tags:
   - フィットネス
   - スクワット
   - 筋トレ

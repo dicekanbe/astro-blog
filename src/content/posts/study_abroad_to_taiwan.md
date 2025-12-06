@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 categories:
   - 雑記
-tag:
+tags:
   - 雑記
   - 英語
   - 学習

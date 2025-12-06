@@ -10,7 +10,7 @@ categories:
   - お店
   - 愛媛
   - 食物
-tag:
+tags:
   - お店
   - 愛媛
   - 食物

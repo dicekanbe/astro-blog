@@ -11,7 +11,7 @@ categories:
   - Mac
   - Windows
   - ツール
-tag:
+tags:
   - Mac
   - Windows
   - ツール

@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/09/51NY0z0lHqL._SL160_.jpg
 categories:
   - マインドの使い方
   - 健康
-tag:
+tags:
   - マインドの使い方
   - 健康
   - 瞑想

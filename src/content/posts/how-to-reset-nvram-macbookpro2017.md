@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 categories:
   - Mac
-tag:
+tags:
   - Mac
   - 技術
   - プログラミング

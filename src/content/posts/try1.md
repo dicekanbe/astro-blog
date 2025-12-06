@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 categories:
   - １カ月チャレンジ
-tag:
+tags:
   - １カ月チャレンジ
   - 食事
   - 栄養

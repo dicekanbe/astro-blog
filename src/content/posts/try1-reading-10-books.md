@@ -9,7 +9,7 @@ type: post
 categories:
   - １カ月チャレンジ
   - 読書
-tag:
+tags:
   - １カ月チャレンジ
   - 読書
   - 学習

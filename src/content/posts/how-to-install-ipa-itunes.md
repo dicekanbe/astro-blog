@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2017/09/20170914211009.png
 categories:
   - Mac
   - ツール
-tag:
+tags:
   - Mac
   - ツール
   - 技術

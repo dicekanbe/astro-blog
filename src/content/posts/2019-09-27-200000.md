@@ -9,7 +9,7 @@ type: post
 categories:
   - 自己紹介的な
   - 雑記
-tag:
+tags:
   - 自己紹介的な
   - 雑記
   - 自己紹介

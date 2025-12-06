@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2017/09/6555908395_91ceb0f9ca_b.jpg
 categories:
   - ダイエット
   - 健康
-tag:
+tags:
   - ダイエット
   - 健康
   - 食事

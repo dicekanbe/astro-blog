@@ -9,7 +9,7 @@ type: post
 categories:
   - アソシエイト
   - ブログ
-tag:
+tags:
   - アソシエイト
   - ブログ
   - 執筆

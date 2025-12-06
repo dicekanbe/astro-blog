@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/08/61BoTa-TPxL._SL160_.jpg
 categories:
   - 小説
   - 読書
-tag:
+tags:
   - 小説
   - 読書
   - 学習

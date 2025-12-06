@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/11/51pRNnWYcDL._SL160_.jpg
 categories:
   - アニメ
   - 映画
-tag:
+tags:
   - アニメ
   - 映画
   - エンターテイメント

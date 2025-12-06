@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/09/41SyUfHJ6bL._SL160_.jpg
 categories:
   - 自己紹介的な
   - 雑記
-tag:
+tags:
   - 自己紹介的な
   - 雑記
   - 自己紹介

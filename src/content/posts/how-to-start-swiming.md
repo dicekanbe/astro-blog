@@ -9,7 +9,7 @@ type: post
 categories:
   - 健康
   - 水泳
-tag:
+tags:
   - 健康
   - 水泳
   - フィットネス

@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/05/41hzeNCo7oL._SL160_.jpg
 categories:
   - ツール
   - 音響
-tag:
+tags:
   - ツール
   - 音響
   - ブログ

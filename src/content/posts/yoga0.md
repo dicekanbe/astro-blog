@@ -9,7 +9,7 @@ type: post
 categories:
   - Yoga
   - フィットネス
-tag:
+tags:
   - Yoga
   - フィットネス
   - 健康

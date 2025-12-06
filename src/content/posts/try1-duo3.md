@@ -10,7 +10,7 @@ thumbnail: ../../uploads/2018/09/611J86tcwUL._SL160_.jpg
 categories:
   - １カ月チャレンジ
   - 英語
-tag:
+tags:
   - １カ月チャレンジ
   - 英語
   - 読書

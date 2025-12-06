@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 categories:
   - フィットネス
-tag:
+tags:
   - フィットネス
   - ベンチプレス
   - 胸筋

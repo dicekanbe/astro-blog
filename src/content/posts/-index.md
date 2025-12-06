@@ -1,6 +1,6 @@
 ---
 title: Blog
-tag:
+tags:
   - ブログ
   - 執筆
   - 情報発信
