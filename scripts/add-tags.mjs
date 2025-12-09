@@ -139,7 +139,7 @@ async function processFiles() {
       tags = tags.concat(['雑記', 'ブログ', '日記']).slice(0, 5);
     }
 
-    parsed.data.tag = tags;
+    parsed.data.tags = tags;
     
     // Convert date from UTC to JST (+09:00) with proper format
     if (parsed.data.date) {
