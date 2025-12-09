@@ -1,0 +1,121 @@
+---
+title: ハローワーク初体験から、DTLS1.3とEKSアップデート、そして減量の現在地まで
+description: >-
+  ハローワーク初体験談、DTLS1.3への移行で発生したWebRTCトラブル、EKSクラスター更新のコストと判断、そして停滞期に入った減量の現在地まで、技術と生活のリアルな進捗を語る。
+date: '2025-10-03T21:30:00+09:00'
+status: publish
+author: user
+excerpt: ''
+type: post
+image: /images/podcast-t-ep55.png
+categories:
+  - Podcast
+tags:
+  - Podcast
+  - ジム
+  - トレーニング
+  - フィットネス
+  - 食事
+post_format: []
+---
+
+
+今週もジムへ向かう車内収録。
+パーソナリティは竹内（[@rikson_en](https://x.com/rikson_en)）と僕。相変わらずゆるい出だしから始まったのですが、
+話題はわりと実務的で濃いめでした。雇用保険の手続き、開発中アプリの設計変更、Chromeのアップデートで起きたWebRTCのトラブル、
+EKSクラスターの更新、最後は恒例の減量近況報告まで。
+技術と生活が横並びで進んでいく感じが、この番組らしさだと思います。
+
+https://open.spotify.com/episode/5vVK39OEeVIB3jjwmCQo7D?si=dH8AdQFGRHakxHJuwS0UqA
+
+## 竹内、雇用保険の手続きを終える、ハローワークの現場感
+
+竹内は正式退職後、退職証明書など必要書類が揃ったタイミングでハローワークへ。
+初回は勝手が分からず、窓口の所在やフローで迷子になりがち。
+しかもマイナンバーを家に取りに戻るというアクシデントも重なって、滞在はおよそ二時間コースでした。
+実際の流れは、まず1階の総合受付で一通りの事務を済ませ、そこから2階の雇用保険窓口に送られる形が正解。最初にここが見えないと、
+確かに混乱しやすいですね。
+
+求人も少し見たようですが、ITの好条件は少なめで、提示されるレンジも月25〜40万円前後が中心。
+竹内はハローワークの求人に対して、転職先が決まっていない人がまずアクセスする場という印象を持っていて、
+企業側もその前提で条件を抑えがちなのでは、という所感。僕も昔の自分の経験を思い出し、投げやりに選んだ就職の難しさを振り返りました。
+とはいえ、研修ラインナップは幅広く、組込みやCAD講座は気になっている様子。3Dプリンターにつながる3DCADに惹かれてはいるものの、初学者向けに寄りやすい講習のペースが、かえって学習効率を落とす可能性はあるよね、というのが僕の見立てです。
+
+## アプリ開発の設計をピボット
+
+竹内が個人開発している iOSアプリは、いったんログイン機能をやめる方針に舵切り。
+小さく使うユースケースで、いちいちアカウント登録は煩雑という判断です。ログインを捨てると当然ぶつかるのが同期問題。
+ここはiOSのヘルスデータ連携で分散データを寄せる案を模索しつつ、ローカルの永続化は SQLiteを採用。
+Androidはデバイスも開発環境もないことから対象外と割り切りました。
+
+設計で今つまずきが大きいのは、Webとアプリで文化が異なるマイグレーション運用。
+Webのようにデプロイ時にマイグレを回すのではなく、アプリのエントリーでスキーマ判定と移行処理を走らせる必要があります。
+さらに DrizzleORMでSQLiteを使う構成にしているため、シミュレーター配下の特殊なパスやDrizzleStudioの接続情報の扱いがややトリッキー。
+シードデータの流し込みも最適解を探っている段階です。
+
+AIについては、どのLLMを使うかが未決。僕からは、TypeScript側で扱えるエージェント系フレームワークの選択肢や、
+まずは安価でレイテンシの良いプロバイダを試してみるアプローチを提案。
+竹内もコストと応答速度を見ながら、最安構成で実験してから本採用を決めたいという結論でした。
+
+## ChromeアップデートでWebRTCの映像が消えた日、DTLS1.3の余波
+
+仕事の話に移ると、ここ数週間で一番焦ったのがChromium系のマイナーアップデート。
+DTLSのデフォルトが1.2から1.3に切り替わり、WebRTCの一部セッションで映像が出なくなる事象に直面しました。
+DTLSはUDPの上で暗号を担うレイヤーで、WebRTC全体の輸送路を保護します。
+よく語られるエンドツーエンド暗号化は別レイヤーの話で、SFU構成だと中継で復号・再暗号化が挟まるのに対し、E2EEはそこを通過時も秘匿を維持する思想。
+今回やられたのは、サーバー側が1.2前提の実装をしていたところに、クライアントの既定が1.3に上がってしまい齟齬が発生してしまうパターンでした。
+結果、ルームには入れても映像・音声が出てこない。サーバー更新で復旧しましたが、バージョン非互換は地味に現場へ響きます。
+
+## EKSを回し続けるコスト、Amazon Linux2から2023へ
+
+インフラ側では、EKSのワーカーノードで使っていた AmazonLinux2のサポートがこの10月で切れるため、
+AmazonLinux2023へ移行。併せてクラスター自体も1.32から1.33にアップグレードしました。
+選択肢としてコンテナホスト特化のBottlerocketも検討しましたが、
+当面は情報量と運用の見通しを優先して2023を選択。
+Kubernetesはクラスターを維持するだけで固定費が乗る上に、API廃止やアドオンの互換追随など、定期的なメンテが必要となります。
+規模や要件によってはECSや各種サーバーレスに寄せた方がトータルコストは軽くなる、というのが今回のアップグレードで改めて見えた教訓でした。
+WebRTCの基盤自体もSaaSを使うか自前運用を続けるかは規模依存で、
+ユーザー数が伸びるまではマネージドサービスを賢く併用する余地がある、そんな議論で落ち着いています。
+
+## 減量の現在地、数字は揺れる、でも継続する
+
+最後は竹内の減量進捗。今朝は58.0kg、週の途中には59kgに触れるなど、9月以降は緩い停滞モード。食事は2000kcal未満、タンパク質120g以上、脂質30〜50g、糖質は日によって100〜200gとコントロールを継続しています。運動と摂取が大きく変わっていないのに数値が動くのは不思議に見えますが、日単位の1kg前後は水分で簡単にブレます。僕としては、先週までの移動平均ではしっかり下向きだったので、まずは同条件での継続観察を推し。停滞期は誰にでも来るので、今は焦らずトラッキングを積むフェーズです。竹内いわく、この番組で減量の経過を公開していくのも自分へのコミットになるとのこと。うまくいってもいかなくても、データと記録は必ず次の改善に効いてきます。
+
+## おわりに
+
+55回目は、手続きという生活のリアルと、実務的なトラブルシュート、そして個人開発の意思決定が一本の線でつながった回でした。ログインを捨てて体験を軽くする設計、トランスポート層の非互換を即日で踏み抜いたときの対処、運用コストを見直していくインフラの選択肢、体重計の数字と向き合う地道さ。どれも正解はひとつではないからこそ、次回の車内でもう少し解像度を上げていきます。来週の僕らに少し期待しつつ、引き続きハッシュタグWe are on the wayで感想やお便り、待ってます。
+
+
+https://amzn.to/47VZOLV
+
+
+## 参考リンク
+
+- [ハローワーク](https://www.hellowork.mhlw.go.jp/)
+- [マイナンバー](https://www.kojinbango-card.go.jp/)
+- [HealthKit（ヘルスデータ）](https://developer.apple.com/documentation/healthkit)
+- [SQLite](https://www.sqlite.org/)
+- [iCloud](https://www.apple.com/icloud/)
+- [Drizzle ORM](https://orm.drizzle.team/)
+- [Drizzle Studio](https://orm.drizzle.team/drizzle-studio-overview)
+- [GraphAI](https://github.com/receptron/graphai)
+- [LangChain](https://www.langchain.com/)
+- [GPT-5](https://openai.com/gpt-5/)
+- [OpenRouter](https://openrouter.ai/)
+- [qroq](https://groq.com/)
+- [Chromium](https://www.chromium.org/)
+- [DTLS 1.3](https://datatracker.ietf.org/doc/rfc9147/)
+- [DTLS 1.2](https://datatracker.ietf.org/doc/rfc6347/)
+- [WebRTC](https://webrtc.org/)
+- [EKS（Amazon Elastic Kubernetes Service）](https://aws.amazon.com/eks/)
+- [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2/)
+- [Amazon Linux 2023](https://aws.amazon.com/linux/amazon-linux-2023/)
+- [Bottlerocket](https://aws.amazon.com/bottlerocket/)
+- [ECS（Elastic Container Service）](https://aws.amazon.com/ecs/)
+- [Skyway](https://skyway.ntt.com/)
+- [Agora](https://www.agora.io/en/)
+- [DuckDB](https://duckdb.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [MySQL](https://www.mysql.com/)
+- [Apple Watch](https://www.apple.com/watch/)
+

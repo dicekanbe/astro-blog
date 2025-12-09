@@ -1,6 +1,6 @@
 ---
 title: 【読書】「ずっとやりたかったことを、やりなさい。」を読んだ
-date: '2025-09-21T08:00:00+09:00'
+date: '2019-09-21T08:00:00+09:00'
 status: publish
 permalink: /entry/artists-way1
 author: user
