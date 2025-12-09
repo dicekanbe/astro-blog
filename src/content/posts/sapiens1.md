@@ -1,6 +1,6 @@
 ---
 title: 【読書】サピエンス全史（上）を読んだ
-date: '2025-08-16T20:25:14+09:00'
+date: '2018-09-06T20:25:14+09:00'
 status: publish
 permalink: /entry/sapiens1
 author: user
