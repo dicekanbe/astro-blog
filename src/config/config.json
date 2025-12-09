@@ -18,6 +18,7 @@
       "健康",
       "読書",
       "マインドの使い方",
+      "Podcast",
       "筋トレ",
       "ダイエット",
       "雑記"
@@ -30,6 +31,7 @@
       "ツール": "/images/categories/tools.svg",
       "読書": "/images/categories/reading.svg",
       "マインドの使い方": "/images/categories/mind.svg",
+      "Podcast": "/images/categories/podcast.svg",
       "英語": "/images/categories/english.svg",
       "雑記": "/images/categories/journal.svg",
       "default": "/images/categories/default.svg"

@@ -1,0 +1,81 @@
+---
+title: 致死率99％!? CWD解説からTSKaigi最前線まで
+description: >-
+  致死率99%の鹿プリオン病CWDの恐怖から、TSKaigi
+  2025で注目のSignal/Observable、enum再評価、PBTといった最新技術トレンド、そして今期アニメまで。技術と日常が交錯する車内トーク。
+date: '2025-07-01T21:00:00+09:00'
+status: publish
+author: user
+excerpt: ''
+type: post
+image: /images/podcast-t-ep45.png
+categories:
+  - Podcast
+tags:
+  - Podcast
+  - アニメ
+  - エンターテイメント
+  - 趣味
+  - ジム
+post_format: []
+---
+
+
+ジム通いの車内で収録したポッドキャスト45回目は、深刻な時事ネタから最新技術、今期アニメまで幅広い話題が飛び交いました。  
+
+https://youtu.be/XPxxkPaz9lw?si=Vew79TNN_AQfBuNu
+
+まず竹内（[@rikson_en](https://x.com/rikson_en)）が持ち込んだのは、鹿由来プリオン病 CWD（Chronic Wasting Disease）のニュース。致死率は100％、ワクチンも治療法もなく、アメリカや韓国で拡大しているという話に、鹿肉をよく食べる僕は震え上がります。後半は竹内が視聴中の TSKaigi 2025 動画をきっかけに、ECMAScript標準へ取り込まれそうなSignalやObservable、TypeScript enum再評価の動き、そしてProperty-Based Testing×fast-checkのセッションへと議論が発展。道中で盛り上がったアニメ談義も交え、技術と日常が絶妙に絡み合う回になりました。
+
+
+### ジムへの道中――CWDの恐怖を語る
+
+車に乗り込むなり竹内（[@rikson_en](https://x.com/rikson_en)）が切り出したのは、CWDという“鹿版クロイツフェルト・ヤコブ病”の流行でした。原因はプリオンと呼ばれる異常タンパク質。かつて牛のBSE（いわゆる狂牛病）や羊のスクレイピー、人間同士の食人儀礼で発症した例などを引き合いに、プリオン病の怖さを熱弁します。従来は感染した肉を食べなければうつらないとされたのに、CWDは糞や唾液経由でも拡散し、汚染土壌では十年単位で病原性が残るというのだから厄介です。鹿肉を日常的に食べる僕は「日本に持ち込まれたら終わりじゃないか」と青ざめ、竹内も「輸入規制で食い止めているものの時間の問題かも」と渋い顔。ミストチャンネルという科学系YouTubeが情報源とのことで、社会的インパクトはまだ小さいものの、研究者でも実験中に感染するケースがあると聞き、プリオンの恐ろしさを改めて実感しました。
+
+
+### 今期アニメの期待作でクールダウン
+
+重い話題で車内の空気が張り詰めたあと、竹内は「今期アニメが面白そう」と話題転換。
+Netflixで配信が始まった『タコピーの原罪』を筆頭に、『怪獣8号』シーズン2、『光が死んだ夏』、
+『薫る花は凛と咲く』といった新作に期待を寄せます。原作既読の僕は「内容を忘れかけてるから逆に新鮮に楽しめそう」と同意しつつ、『タコピー』のダークさは『まどマギ』を思わせると語って盛り上がりました。
+
+
+### 帰り道――TSKaigi 2025の技術トレンドを深掘り
+
+トレーニング後の帰り道、竹内はTSKaigi 2025の動画を流しながら気になったセッションをピックアップ。まずは「Signal と Observable」の標準化提案。ReactのuseStateやAngularのRxJSが担ってきたリアクティブ状態管理を、言語仕様として取り込む動きに「パフォーマンスや実装の統一が進むかも」と期待を語ります。僕は「Signalは初耳で勉強になる」と素直に感心。
+
+次に取り上げたLTは「転生したらTypeScriptのenumだった件」。型安全性の低さゆえ敬遠されがちなenumをJavaScript側に正式導入し、人権を回復しようというユーモラスな内容に二人で爆笑しつつ、将来の標準化プロセスに興味津々。僕は日頃からenumを愛用しているので「見直されるなら嬉しい」と前のめりです。
+
+さらに「fast-checkとneverthrowでPBT＋Result型を組み合わせる話」へ。Property-Based Testingで境界値を自動生成し、関数型エラーハンドリングと併用して堅牢なドメインロジックを構築するアプローチに竹内はワクワク。僕も「テストケースを網羅的に洗い出す負担が減りそう」と手応えを感じました。
+
+AI関連のセッションも多かったそうですが、竹内は「コンテキストとプロンプト工夫というハック寄りで技術的な驚きは薄い」と辛口コメント。僕も「確かに最近は“運用ノウハウ勝負”になりがち」と共感しつつ、引き続きウォッチする価値はあると締めくくりました。
+
+### まとめと次回予告
+
+プリオン病CWDの脅威で始まり、アニメ談義で肩の力を抜き、TSKaigiの最新トレンドで再び技術モードへ――今回も竹内との車内トークは振れ幅大きめでした。CWDは致死率の高さこそ恐ろしいものの、現状は食肉経由が中心。鹿肉ラバーの僕としては「食文化」と「リスク」の綱引きが続きそうです。技術面ではSignalやObservableの標準化、enum再評価、PBT＋Result型といったキーワードが印象的で、フロントエンドとテスト手法の進化を肌で感じました。
+
+次回はジム帰りに鹿肉を持ち込むかどうか悩みつつ、竹内と新しいAIツールの実践例も試してみる予定です。気になる方はポッドキャスト本編で生の掛け合いをぜひお楽しみください。
+
+https://amzn.to/4kv7uYk
+
+## 今回の話に出てきたツール等
+* [CWD（Chronic Wasting Disease） - CDC公式サイト](https://www.cdc.gov/chronic-wasting/animals/?CDC_AAref_Val=https://www.cdc.gov/prions/cwd/index.html)
+* [ミストチャンネル（YouTube）](https://www.youtube.com/@mistchannel)
+* [『タコピーの原罪』公式サイト](https://www.tbs.co.jp/anime/takopi_project/)
+* [『怪獣8号』公式サイト](https://kaiju-no8.net/)
+* [『光が死んだ夏』公式サイト](https://hikanatsu-anime.com/)
+* [『薫る花は凛と咲く』公式サイト](https://kaoruhana-anime.com/)
+* [『魔法少女まどか☆マギカ』公式サイト](https://madoka-magica.com/)
+* [TSKaigi 2025 公式サイト](https://tskaigi.org/2025/)
+* [Signal（状態管理提案） - TC39 GitHub](https://github.com/tc39/proposal-signals)
+* [Observable（リアクティブストリーム） - TC39提案](https://tc39.es/proposal-observable/)
+* [転生したらTypeScriptのEnumだった件～型安全性とエコシステムの変化で挫けそうになっている](https://2025.tskaigi.org/talks/yamanoku)
+* [fast-check neverthrowDPBT+ResultzCzx](https://2025.tskaigi.org/talks/kueda)
+* [牢なビジネスロジックを実現する](https://2025.tskaigi.org/talks/kueda)
+
+
+
+
+
+
+

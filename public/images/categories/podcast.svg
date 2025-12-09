@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+    <defs>
+        <linearGradient id="podcastGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="url(#podcastGradient)" opacity="0.1"/>
+    
+    <!-- Microphone Stand -->
+    <rect x="95" y="130" width="10" height="40" rx="2" fill="url(#podcastGradient)"/>
+    <ellipse cx="100" cy="170" rx="25" ry="5" fill="url(#podcastGradient)" opacity="0.6"/>
+    
+    <!-- Microphone Body -->
+    <rect x="75" y="70" width="50" height="70" rx="25" fill="url(#podcastGradient)"/>
+    
+    <!-- Microphone Grid Lines -->
+    <line x1="80" y1="85" x2="120" y2="85" stroke="white" stroke-width="2" opacity="0.3"/>
+    <line x1="80" y1="95" x2="120" y2="95" stroke="white" stroke-width="2" opacity="0.3"/>
+    <line x1="80" y1="105" x2="120" y2="105" stroke="white" stroke-width="2" opacity="0.3"/>
+    <line x1="80" y1="115" x2="120" y2="115" stroke="white" stroke-width="2" opacity="0.3"/>
+    <line x1="80" y1="125" x2="120" y2="125" stroke="white" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Microphone Top -->
+    <ellipse cx="100" cy="70" rx="25" ry="12" fill="url(#podcastGradient)"/>
+    <ellipse cx="100" cy="70" rx="20" ry="10" fill="white" opacity="0.2"/>
+    
+    <!-- Sound Waves -->
+    <path d="M 140 90 Q 150 100 140 110" stroke="url(#podcastGradient)" stroke-width="3" fill="none" opacity="0.6"/>
+    <path d="M 150 80 Q 165 100 150 120" stroke="url(#podcastGradient)" stroke-width="3" fill="none" opacity="0.4"/>
+    <path d="M 60 90 Q 50 100 60 110" stroke="url(#podcastGradient)" stroke-width="3" fill="none" opacity="0.6"/>
+    <path d="M 50 80 Q 35 100 50 120" stroke="url(#podcastGradient)" stroke-width="3" fill="none" opacity="0.4"/>
+    
+    <!-- Shine Effect -->
+    <ellipse cx="90" cy="85" rx="8" ry="15" fill="white" opacity="0.3"/>
+</svg>
