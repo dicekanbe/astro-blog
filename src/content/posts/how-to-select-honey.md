@@ -12,9 +12,9 @@ categories:
 tags:
   - 健康
   - 食べ物
-  - バナナ
   - 食事
   - 栄養
+  - バナナ
 post_format: []
 ---
 
